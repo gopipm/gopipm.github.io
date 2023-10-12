@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/credits/</loc>
+            <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/</loc>
+            <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/credits/what-is-hugo/</loc>
+            <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/credits/console/</loc>
+            <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/about/</loc>
+            <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/credits/hugo-theme-console/</loc>
+            <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/categories/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/posts/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/tags/</loc>
+        </url>
+        
+    
+</urlset>
