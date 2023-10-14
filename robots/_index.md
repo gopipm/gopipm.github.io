@@ -1,3 +1,4 @@
 +++
 title = "Robots"
+type = "gallery"
 +++
