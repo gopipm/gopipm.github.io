@@ -1,5 +1,7 @@
 +++
 date = "2023-10-12"
+tags = ["about", "gopi", "palaniappan"]
+categories = ["about", "gopi", "palaniappan"]
 +++
 
 # Gopi Palaniappan - Exploring Innovation
