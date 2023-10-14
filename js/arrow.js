@@ -1,8 +1,14 @@
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
 
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+function resizeCanvas() {
+    canvas.width = window.innerWidth; // Set canvas width to window width
+    canvas.height = window.innerHeight; // Set canvas height to window height
+}
+
+// Initial canvas size setup
+resizeCanvas();
+
 
 var target = {
     x: 0,
@@ -15,18 +21,20 @@ const mouse = {
 }
 
 addEventListener('mousemove', (event) => {
-    mouse.x = event.clientX;
-    mouse.y = event.clientY;
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = event.clientX - rect.left;
+    mouse.y = event.clientY - rect.top; // Adjust for page scroll
+
     controllerx.target = mouse.x;
     controllery.target = mouse.y;
 
 })
 
-addEventListener('resize', () => {
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
-    init();
-})
+
+// Listen for window resize events
+window.addEventListener('resize', resizeCanvas);
+
+
 
 class Arrow {
     constructor(x, y) {
