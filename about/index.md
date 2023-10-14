@@ -1,5 +1,5 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
+date = "2023-10-12"
 +++
 
 # Gopi Palaniappan - Exploring Innovation
