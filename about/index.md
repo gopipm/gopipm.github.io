@@ -26,6 +26,16 @@ Welcome to my personal website! I'm Gopi Palaniappan, a Technical Program Manage
 
 - **Motorola Mobility:** My career kicked off at Motorola Mobility, where I evolved from a software engineer to a program manager. I was responsible for Android phone development, DevOps, and managing vendor software royalties and open-source software compliance.
 
+        <ul>
+            <li><strong>2017–Present:</strong> <a href="https://google.com/">Google Inc.</a>
+                <br> Senior Technical Program Manager, Android XR Platform
+            </li>
+            <li><strong>   1999–2017:</strong> <a href="https://motorola.com/">Motorola</a>
+                <br> Distinguished Member of Technical Staff (R&D) / Operations Manager, Motorola Mobility
+            </li>
+        </ul>
+
+
 ## Education and Interests
 
 I hold an MSEE from Bradley University and completed an Executive MBA specializing in Entrepreneurship and Data Science. My undergraduate degree was in Telecommunications Engineering from Bangalore Institute of Technology.
