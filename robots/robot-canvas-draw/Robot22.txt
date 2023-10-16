@@ -1,0 +1,48 @@
+//function CustomRobot17(context, x, y, angle, color) {
+    angle = 1.57080; // 90 deg
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color || 'green'; // Default color is green
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+
+    var scale = 1;
+    var w = 40 * scale;
+    var h = 20 * scale;
+    var x1 = -w / 2;
+    var y1 = -h / 2;
+
+    // Draw the main body
+    context.beginPath();
+    context.rect(x1, y1, w, h);
+    context.globalAlpha = 0.7;
+    context.fill();
+    context.globalAlpha = 1;
+    context.stroke();
+
+    // Draw the head
+    h = 6 * scale;
+    y1 = -h / 2;
+
+    context.beginPath();
+    context.rect(x1, y1, w, h);
+    context.fillStyle = 'green';
+    context.fill();
+    context.stroke();
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot17(context, x, y, angle, "blue"); // Customize the color if needed
+
+
+
+
+
+
+

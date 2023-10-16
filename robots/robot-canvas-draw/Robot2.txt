@@ -1,0 +1,82 @@
+       
+// Draw a Robot2
+//function Robot2(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        var dir = angle;
+        var scale = 1;
+
+       // first save the untranslated/unrotated context
+        context.save();
+
+        context.beginPath();
+
+
+        //context.beginPath();
+        var w = 100 * scale;
+        var h = 40 * scale;
+
+        var x1 = x * scale;
+        var y1 = y * scale;
+
+
+        var bx = x1-w/2;
+        var by = y1-h/2;
+
+        var wht = 10 * scale;
+        var whs = 25 * scale;
+
+        steeringAngle = 0.5;
+
+
+        // move the rotation point to the center of the rect
+        context.translate( x1, y1 );
+        context.rotate(dir);
+        context.translate( -bx-w/2, -by-h/2 );
+
+
+
+        // Draw back wheels
+        context.fillStyle = "black";
+        context.fillRect(bx + w/15, by - wht/2, whs, wht);
+        context.fillRect(bx + w/15, by + h - wht/2, whs, wht);
+
+
+        // Draw front wheels (they rotate)
+
+        context.save();
+            var wheelCenter = new Vector(bx + w - whs/2 - w/15, by + wht/2 - wht/2);
+            context.translate(wheelCenter.x, wheelCenter.y);
+            context.rotate(steeringAngle);
+
+            var wheel = new Vector(-whs/2, -wht/2);
+            context.fillRect(wheel.x, wheel.y, whs, wht);
+        context.restore();
+
+        context.save();
+            var wheelCenter = new Vector(bx + w - whs/2 - w/15, by + h + wht/2 - wht/2);
+            context.translate(wheelCenter.x, wheelCenter.y);
+            context.rotate(steeringAngle);
+
+            var wheel = new Vector(-whs/2, -wht/2);
+            context.fillRect(wheel.x, wheel.y, whs, wht);
+        context.restore();
+
+
+
+        // Draw car body
+        context.fillStyle = "red";
+        context.fillRect(bx, by, w, h);
+        context.stroke();
+
+
+        context.closePath();
+
+        // restore the context to its untranslated/unrotated state
+        context.restore();
+
+
+
+
+
+ //}

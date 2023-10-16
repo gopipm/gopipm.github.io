@@ -1,0 +1,51 @@
+//function CustomRobot12(context, x, y, angle, color) {
+    angle = 1.57080; // 90 deg
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color || 'red'; // Default color is red
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+
+    // Draw the robot's body
+    var w = 100;
+    var h = 40;
+    var r = 20;
+    var l = 20;
+
+    context.beginPath();
+    context.arc(0, 0, 4, 0, Math.PI * 2);
+    context.closePath();
+    context.fill();
+
+    context.beginPath();
+    context.moveTo(0, 0);
+    context.lineTo(15, 0);
+    context.closePath();
+    context.stroke();
+
+    context.beginPath();
+    context.moveTo(15, 15);
+    context.lineTo(15 + r * 25, r * 25);
+    context.closePath();
+    context.stroke();
+
+    context.beginPath();
+    context.moveTo(15, -15);
+    context.lineTo(15 + l * 25, -l * 25);
+    context.closePath();
+    context.stroke();
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot12(context, x, y, angle, "blue"); // Customize the color if needed
+
+
+
+
+

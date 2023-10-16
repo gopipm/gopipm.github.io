@@ -1,0 +1,27 @@
+       
+// Draw a Arrow
+//function Arrow(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var dir = angle;
+        var scale = 1;
+
+
+        var icon = new Image();
+            icon.src = "images/arrowsmall.png";
+
+        var a = (window.innerWidth * window.innerHeight) * 0.0006;
+        var scale = Math.sqrt(a / (icon.width * icon.height));
+        context.save();
+        context.translate(x, y);
+        context.rotate(angle);
+        context.drawImage(icon, -icon.height * scale / 2, -icon.width * scale / 2, icon.width * scale, icon.height * scale);
+        context.restore();
+
+
+
+
+
+
+ //}

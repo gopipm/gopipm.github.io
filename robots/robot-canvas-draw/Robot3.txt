@@ -1,0 +1,75 @@
+       
+// Draw a Robot3
+//function Robot3(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        var dir = angle;
+        var scale = 1;
+
+
+        // first save the untranslated/unrotated context
+        context.save();
+
+
+        var w = 100 * scale;
+        var h = 40 * scale;
+
+        var x1 = x * scale;
+        var y1 = y * scale;
+
+        var r = 1*scale;
+        var l = 1*scale;
+
+
+
+        context.fillStyle = "#000";
+        context.beginPath();
+        context.arc(x1, y1, 4, 0, Math.PI * 2);
+        context.closePath();
+        context.fill();
+
+        context.strokeStyle = "#000";
+        context.beginPath();
+        context.moveTo(x1, y1);
+        context.lineTo(x1 + Math.cos(dir) * 10, y1 + Math.sin(dir) * 10);
+        context.closePath();
+        context.stroke();
+
+        context.strokeStyle = "#0F0";
+        context.beginPath();
+        context.moveTo(
+        x1 + Math.cos(dir + Math.PI / 2) * 10,
+        y1 + Math.sin(dir + Math.PI / 2) * 10);
+
+        context.lineTo(
+        x1 + Math.cos(dir + Math.PI / 2) * 10 + r * 20 * Math.cos(dir),
+        y1 + Math.sin(dir + Math.PI / 2) * 10 + r * 20 * Math.sin(dir));
+
+        context.closePath();
+        context.stroke();
+
+        context.strokeStyle = "#0F0";
+        context.beginPath();
+        context.moveTo(
+        x1 + Math.cos(dir - Math.PI / 2) * 10,
+        y1 + Math.sin(dir - Math.PI / 2) * 10);
+
+        context.lineTo(
+        x1 + Math.cos(dir - Math.PI / 2) * 10 + l * 20 * Math.cos(dir),
+        y1 + Math.sin(dir - Math.PI / 2) * 10 + l * 20 * Math.sin(dir));
+
+        context.closePath();
+        context.stroke();
+
+
+
+
+        // restore the context to its untranslated/unrotated state
+        context.restore();
+
+
+
+
+
+
+ //}

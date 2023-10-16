@@ -1,0 +1,36 @@
+       
+// Draw a Robot7
+//function Robot7(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var dir = angle;
+        var scale = 1;
+        var size = 20;
+        //var color = "red";
+        var drawDirection = false;
+
+
+
+        context.save();
+        context.translate(x, y);
+        context.rotate(angle);
+        context.beginPath();
+        context.rect(-10, -5, 20, 10);
+        context.stroke();
+        if (drawDirection) {
+            context.beginPath();
+            context.moveTo(5, -3);
+            context.lineTo(5, 3);
+            context.lineTo(9, 0);
+            context.closePath();
+            context.stroke();
+        }
+        context.restore();
+
+
+
+
+
+
+ //}

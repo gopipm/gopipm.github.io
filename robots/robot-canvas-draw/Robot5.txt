@@ -1,0 +1,83 @@
+       
+// Draw a Robot5
+//function Robot5(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var dir = angle;
+        var scale = 1;
+        var size = 20;
+        var color = "red";
+
+
+
+
+        const drawHead = () => {
+            context.strokeStyle = "silver";
+            context.fillStyle = color;
+            context.beginPath();
+            context.arc(0, 0, 50, 0, Math.PI * 2);
+            context.stroke();
+            context.fill();
+
+            context.lineWidth = 10;
+            context.beginPath();
+            context.arc(0, 0, 20, 0, Math.PI * 2);
+            context.stroke();
+
+            let rotation = 0;
+            context.save();
+            for (rotation = 0; rotation < 6; rotation++) {
+                context.rotate(2 * Math.PI / 6);
+                context.beginPath();
+                context.moveTo(0, 20);
+                context.lineTo(0, 50);
+                context.stroke();
+            }
+            context.restore();
+
+            context.beginPath();
+            context.arc(0, 0, 50, 0, Math.PI * 2);
+            context.stroke();
+        };
+
+        const drawFoot = () => {
+            context.lineWidth = 1;
+            context.fillStyle = "white";
+            context.strokeStyle = "black";
+
+            context.beginPath();
+            context.rect(0, 0, 40, 20);
+            context.fill();
+            context.stroke();
+            context.beginPath();
+            context.moveTo(0, 0);
+            context.lineTo(40, 20);
+            context.moveTo(0, 20);
+            context.lineTo(40, 0);
+            context.stroke();
+            context.beginPath();
+            context.rect(10, 0, 20, 20);
+            context.fill();
+            context.stroke();
+        };
+
+        context.save();
+        context.translate(x, y);
+        context.rotate(angle);
+        drawHead();
+
+        context.save();
+        context.translate(-20, 55);
+        drawFoot();
+        context.restore();
+        context.translate(-20, -75);
+        drawFoot();
+        context.restore();
+
+
+
+
+
+
+ //}

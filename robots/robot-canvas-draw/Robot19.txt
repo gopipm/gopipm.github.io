@@ -1,0 +1,51 @@
+//function CustomRobot10(context, x, y, angle, color) {
+    angle = 1.57080; // 90 deg
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color || 'blue'; // Default color is blue
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+
+    // Draw the robot's head
+    context.beginPath();
+    context.arc(0, 0, 50, 0, Math.PI * 2);
+    context.fill();
+    context.stroke();
+
+    // Draw the robot's "antennas"
+    context.lineWidth = 10;
+    for (var rotation = 0; rotation < 6; rotation++) {
+        context.rotate(2 * Math.PI / 6);
+        context.beginPath();
+        context.moveTo(0, 20);
+        context.lineTo(0, 50);
+        context.stroke();
+    }
+
+    // Draw the robot's body
+    context.lineWidth = 1;
+    context.fillStyle = 'white';
+    context.strokeStyle = 'black';
+    context.fillRect(0, 0, 40, 20);
+    context.strokeRect(0, 0, 40, 20);
+    context.beginPath();
+    context.moveTo(0, 0);
+    context.lineTo(40, 20);
+    context.moveTo(0, 20);
+    context.lineTo(40, 0);
+    context.stroke();
+    context.fillRect(10, 0, 20, 20);
+    context.strokeRect(10, 0, 20, 20);
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot10(context, x, y, angle, "red"); // Customize the color if needed
+
+
+

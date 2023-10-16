@@ -1,0 +1,19 @@
+       
+// Draw a squareBot2
+//function SquareBot2(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+
+        // Draw the robot
+        context.fillStyle = "blue";
+        context.save();
+        context.translate(x, y);
+        context.rotate(angle);
+        context.fillRect(-10, -10, 20, 20);
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.lineTo(20, 0);
+        context.stroke();
+        context.restore();
+
+ //}

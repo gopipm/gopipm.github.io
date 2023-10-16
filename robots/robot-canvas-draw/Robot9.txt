@@ -1,0 +1,44 @@
+//Robot9
+//function CustomRobot(context, x, y, angle, color) {
+
+
+    var color = "green";
+    angle = 1.57080 ; //90 deg
+
+    // Set the robot's color
+    context.fillStyle = color;
+    context.strokeStyle = "black";
+    context.lineWidth = 2;
+
+    // Translate and rotate the robot
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Draw the robot body
+    context.fillRect(-20, -30, 40, 60);
+    context.strokeRect(-20, -30, 40, 60);
+
+    // Draw the robot head
+    context.beginPath();
+    context.arc(0, -40, 20, 0, Math.PI * 2);
+    context.fill();
+    context.stroke();
+
+    // Draw the robot eyes
+    context.fillStyle = "white";
+    context.beginPath();
+    context.arc(-10, -45, 5, 0, Math.PI * 2);
+    context.arc(10, -45, 5, 0, Math.PI * 2);
+    context.fill();
+
+    // Draw the robot mouth
+    context.beginPath();
+    context.arc(0, -35, 10, 0, Math.PI);
+    context.stroke();
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot(context, x, y, angle, "green");

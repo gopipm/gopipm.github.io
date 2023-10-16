@@ -1,0 +1,31 @@
+       
+// Draw a Plus
+//function Plus(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        var dir = angle;
+        var scale = 1;
+
+        var minX = x-10;
+        var maxX = x+10;
+        var minY = y-10;
+        var maxY = y+10;
+
+
+        //console.log("print origin");
+        context.beginPath();
+        context.moveTo(minX, (minY + maxY) / 2);
+        context.lineTo(maxX, (minY + maxY) / 2);
+        context.moveTo((minX + maxX) / 2, minY);
+        context.lineTo((minX + maxX) / 2, maxY);
+        context.strokeStyle = "red";
+        context.lineWidth = 4;
+        context.stroke();
+        context.closePath();
+
+
+
+
+
+
+ //}

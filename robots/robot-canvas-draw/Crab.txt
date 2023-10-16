@@ -1,0 +1,110 @@
+       
+// Draw a Robot8
+//function Robot8(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var heading = angle;
+        var scale = 1;
+        var size = 20;
+        //var color = "red";
+        var width = 50;
+        var length = 50;
+
+
+var PI = Math.PI, cos = Math.cos, sin = Math.sin, abs = Math.abs;
+
+var ACKERMAN = 0, TANK = 1, CRAB = 2;
+var MAX_ALPHA_ACKERMAN = PI/3, MAX_ALPHA_CRAB = 3*PI/4, 
+    SCALE = 1, WHEEL_WIDTH = 4*SCALE, WHEEL_LENGTH = 15*SCALE;
+
+// wheels and corners are created here to avoid allocating memory dynamically
+//  (these are used is for drawing a robot)
+var wheels = [[{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}],
+              [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}],
+              [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}],
+              [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}],
+              [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}],
+              [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}]],
+    corners = [{x:0,y:0}, {x:0,y:0}, {x:0,y:0}, {x:0,y:0}];
+
+    var steering_angle = 0.17453 ; //10 degrees
+
+
+          
+       function get_corners() {
+            var theta = heading,
+                W = width,
+                L = length;
+
+                
+            corners[0].x = x + (W/2)*cos(theta + PI/2);     
+            corners[0].y = y + (W/2)*sin(theta + PI/2);
+            corners[3].x = x + (W/2)*cos(theta + 3*PI/2); 
+            corners[3].y = y + (W/2)*sin(theta + 3*PI/2);
+            corners[1].x = corners[0].x + L*cos(theta); 
+            corners[1].y = corners[0].y + L*sin(theta);
+            corners[2].x = corners[3].x + L*cos(theta); 
+            corners[2].y = corners[3].y + L*sin(theta);
+            
+            return corners;
+        };
+
+      
+        function get_wheels(corners) {
+            var W = WHEEL_WIDTH,
+                L = WHEEL_LENGTH;
+                theta = heading + steering_angle;
+            
+            for (var i = 0; i < 4; i++) {
+                var c = corners[i];
+                    
+                var t1x = c.x + W*cos(theta + PI/2),    
+                    t1y = c.y + W*sin(theta + PI/2),
+                    t2x = c.x + W*cos(theta + 3*PI/2),  
+                    t2y = c.y + W*sin(theta + 3*PI/2);
+                    
+                wheels[i][0].x = t1x + (L/2)*cos(theta + PI); 
+                wheels[i][0].y = t1y + (L/2)*sin(theta + PI);
+                wheels[i][1].x = t1x + (L/2)*cos(theta);    
+                wheels[i][1].y = t1y + (L/2)*sin(theta);
+                wheels[i][3].x = t2x + (L/2)*cos(theta + PI); 
+                wheels[i][3].y = t2y + (L/2)*sin(theta + PI);
+                wheels[i][2].x = t2x + (L/2)*cos(theta);    
+                wheels[i][2].y = t2y + (L/2)*sin(theta);
+            }
+            
+            return wheels;
+        };
+
+            get_corners();
+            get_wheels(corners);
+
+            context.lineWidth = 3;
+            context.strokeStyle = "orange";
+            context.beginPath();
+            context.moveTo(corners[0].x, corners[0].y);
+            for(i = 1; i < 4; i++) {
+                context.lineTo(corners[i].x, corners[i].y);
+            }
+            context.closePath();
+            context.stroke();
+            
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            for (j = 0; j < 4; j++) {
+                var wheel = wheels[j];
+                context.beginPath();
+                context.moveTo(wheel[0].x, wheel[0].y);
+                for(i = 1; i < 4; i++) {
+                    context.lineTo(wheel[i].x, wheel[i].y);
+                }
+                context.closePath();
+                context.stroke();
+            };
+
+
+
+
+
+ //}

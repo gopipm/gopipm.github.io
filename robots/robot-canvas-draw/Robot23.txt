@@ -1,0 +1,51 @@
+//function CustomRobot18(context, x, y, angle, color) {
+    angle = 1.57080; // 90 deg
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color || 'cyan'; // Default color is cyan
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+
+    var scale = 1;
+    var w = 60 * scale;
+    var h = 30 * scale;
+    var x1 = -w / 2;
+    var y1 = -h / 2;
+
+    // Draw the body
+    context.beginPath();
+    context.rect(x1, y1, w, h);
+    context.fill();
+    context.stroke();
+
+    // Draw the head
+    var headRadius = 10 * scale;
+    context.beginPath();
+    context.arc(0, -h / 2 - headRadius, headRadius, 0, 2 * Math.PI);
+    context.fill();
+    context.stroke();
+
+    // Draw the eyes
+    context.fillStyle = 'white';
+    var eyeRadius = 3 * scale;
+    context.beginPath();
+    context.arc(-10, -h / 2 - headRadius / 2, eyeRadius, 0, 2 * Math.PI);
+    context.arc(10, -h / 2 - headRadius / 2, eyeRadius, 0, 2 * Math.PI);
+    context.fill();
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot18(context, x, y, angle, "purple"); // Customize the color if needed
+
+
+
+
+
+
+

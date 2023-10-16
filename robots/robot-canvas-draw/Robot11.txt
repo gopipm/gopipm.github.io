@@ -1,0 +1,54 @@
+//Robot11
+//function CustomRobot(context, x, y, angle, color) {
+
+
+    var color = "green";
+    angle = 1.57080 ; //90 deg
+
+
+
+    // Set the robot's color
+    context.fillStyle = color;
+    context.strokeStyle = "black";
+    context.lineWidth = 2;
+
+    // Translate and rotate the robot
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Draw a Circle in the center
+    context.beginPath();
+    context.arc(0, 0, 50, 0, 2 * Math.PI);
+    context.fill();
+    context.stroke();
+
+    // Draw a Square around the Circle
+    context.fillStyle = 'red';
+    context.fillRect(-75, -75, 150, 150);
+    context.strokeRect(-75, -75, 150, 150);
+
+    // Draw an Arrow-like shape above the Square
+    context.fillStyle = 'blue';
+    context.beginPath();
+    context.moveTo(-20, -100);
+    context.lineTo(20, -100);
+    context.lineTo(0, -140);
+    context.closePath();
+    context.fill();
+    context.stroke();
+
+    // Draw a Plus-like shape within the Circle
+    context.strokeStyle = "red";
+    context.lineWidth = 4;
+    context.moveTo(-50, 0);
+    context.lineTo(50, 0);
+    context.moveTo(0, -50);
+    context.lineTo(0, 50);
+    context.stroke();
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot3(context, x, y, angle, "green");
