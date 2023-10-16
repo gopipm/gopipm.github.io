@@ -46,7 +46,7 @@ class Arrow {
         this.yacc = 0;
         this.angle = 0;
         this.icon = new Image();
-        this.icon.src = "arrowsmall.png";
+        this.icon.src = "/images/arrowsmall.png";
     }
 
     draw() {
