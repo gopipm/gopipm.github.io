@@ -1,0 +1,37 @@
+//function CustomRobot9(context, x, y, angle, color, drawDirection) {
+    angle = 1.57080; // 90 deg
+    var drawDirection = true;
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color || 'green'; // Default color is green
+    context.strokeStyle = 'blue';
+    context.lineWidth = 2;
+
+    // Draw the robot's body as a rectangle
+    context.beginPath();
+    context.rect(-10, -5, 20, 10);
+    context.fill();
+    context.stroke();
+
+    // Optionally, draw a direction indicator
+    if (drawDirection) {
+        context.beginPath();
+        context.moveTo(5, -3);
+        context.lineTo(5, 3);
+        context.lineTo(9, 0);
+        context.closePath();
+        context.fill();
+        context.stroke();
+    }
+
+    context.restore();
+//}
+
+// Usage example:
+// CustomRobot9(context, x, y, angle, "purple", true); // Customize the color and direction if needed
+
+

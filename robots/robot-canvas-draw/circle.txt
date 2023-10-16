@@ -1,0 +1,8 @@
+// Draw a circle
+//function Circle(context, x, y, angle) {
+    context.beginPath();
+    context.arc(x, y, 50, 0, 2 * Math.PI);
+    context.fillStyle = 'blue';
+    context.fill();
+    context.closePath();
+//}

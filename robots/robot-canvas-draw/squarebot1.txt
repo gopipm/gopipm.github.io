@@ -1,0 +1,29 @@
+       
+// Draw a squareBot1
+//function SquareBot1(context, x, y, angle) {
+
+        const width = 20;
+        const height = 20;
+        angle = 1.57080 ; //90 deg
+
+        context.save(); // Save the current canvas state
+        context.translate(x, y); // Translate to the robot's position
+        context.rotate(angle); // Rotate according to the robot's orientation
+
+        // Draw the robot as a square with an arrow representing orientation
+        context.fillStyle = 'blue'; // Set robot color
+        context.fillRect(-width / 2, -height / 2, width, height);
+
+        // Draw an arrow pointing in the direction of orientation
+        context.fillStyle = 'red'; // Set arrow color
+        context.beginPath();
+        context.moveTo(0, -height / 2);
+        context.lineTo(10, -height / 2 + 20);
+        context.lineTo(-10, -height / 2 + 20);
+        context.closePath();
+        context.fill();
+
+        context.restore(); // Restore the canvas state
+
+
+//}

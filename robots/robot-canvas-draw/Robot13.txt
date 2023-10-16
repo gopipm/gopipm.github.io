@@ -1,0 +1,37 @@
+//Robot13
+//function CustomRobot(context, x, y, angle, color) {
+
+
+    var color = "green";
+    angle = 1.57080 ; //90 deg
+
+
+   
+
+    // Customize the arrow's appearance
+    context.fillStyle = color || 'purple'; // Default color is purple
+    context.strokeStyle = "black";
+    context.lineWidth = 2;
+
+    // Load a custom arrow icon
+    var icon = new Image();
+    icon.src = "images/arrowsmall.png"; // Replace with your custom arrow image
+
+    // Calculate the scale based on canvas dimensions
+    var a = (window.innerWidth * window.innerHeight) * 0.0006;
+    var scale = Math.sqrt(a / (icon.width * icon.height));
+
+    // Translate and rotate the arrow
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Draw the custom arrow icon
+    context.drawImage(icon, -icon.height * scale / 2, -icon.width * scale / 2, icon.width * scale, icon.height * scale);
+
+    context.restore();
+//}
+
+// Usage example:
+// FancyArrow(context, x, y, angle, "orange"); // Customize the color if needed
+

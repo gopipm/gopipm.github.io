@@ -1,0 +1,25 @@
+// Draw a Robot15
+//function Robot15(context, x, y, angle) {
+
+ angle = 1.57080; // 90 deg
+    var radius = 20;
+    color = "purple"
+
+    context.fillStyle = color || 'purple'; // Default color is purple
+    context.strokeStyle = 'blue';
+    context.lineWidth = 2;
+
+    // Draw the robot's body as a circle
+    context.beginPath();
+    context.arc(x, y, radius, 0, 2 * Math.PI);
+    context.fill();
+    context.stroke();
+    context.closePath();
+
+    // Draw an arrow pointing in the direction of the angle
+    context.beginPath();
+    context.moveTo(x, y);
+    context.lineTo(x + Math.cos(angle) * radius * 1.5, y + Math.sin(angle) * radius * 1.5);
+    context.stroke();
+    context.closePath(); 
+

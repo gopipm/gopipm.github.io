@@ -1,0 +1,41 @@
++++
+title = "Robot4"
+type = "txt"
++++
+ 
+// Draw a Robot4
+//function Robot4(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var dir = angle;
+        var scale = 1;
+        var size = 20;
+
+
+
+
+            // Draw robot body (a circle)
+            context.beginPath();
+            context.arc(x, y, size, 0, Math.PI * 2);
+            context.fillStyle = 'blue';
+            context.fill();
+            context.closePath();
+
+            // Draw robot head (an arrow)
+            context.beginPath();
+            context.moveTo(x, y);
+            const headLength = 30;
+            const headAngle = angle;
+            context.lineTo(x + headLength * Math.cos(headAngle), y + headLength * Math.sin(headAngle));
+            context.strokeStyle = 'red';
+            context.lineWidth = 3;
+            context.stroke();
+            context.closePath();
+
+
+
+
+
+
+ //}

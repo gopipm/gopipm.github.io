@@ -1,0 +1,33 @@
+       
+// Draw a Robot8
+//function Robot8(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        //angle -= 3 * Math.PI / 2;
+        var theta = angle;
+        var scale = 1;
+        var radius = 20;
+        //var color = "red";
+        var width = 50;
+        var length = 50;
+
+
+    context.fillStyle = '#FF0000';
+    context.beginPath();
+    context.arc(x, y, radius, 0, 2 * Math.PI)
+    context.fill();
+    context.closePath();
+
+    context.strokeStyle = '#00FFFF';
+    context.lineWidth = 2;
+    context.beginPath();
+    context.moveTo(x, y);
+    context.lineTo(x + Math.cos(theta)*radius*1.5, y + Math.sin(theta)*radius*1.5);
+    context.stroke();
+    context.closePath();
+
+
+
+
+
+ //}

@@ -1,0 +1,81 @@
+       
+// Draw a Robot1
+//function Robot1(context, x, y, angle) {
+
+        angle = 1.57080 ; //90 deg
+        var dir = angle;
+        var scale = 1;
+
+              // first save the untranslated/unrotated context
+        context.save();
+
+
+
+        var w = 40*scale;
+        var h = 20*scale;
+        var x1 = x*scale-w/2;
+        var y1 = y*scale-h/2;
+
+        context.beginPath();
+        // move the rotation point to the center of the rect
+        context.translate( x1+w/2, y1+h/2 );
+        // rotate the rect
+        context.rotate(dir);
+
+        context.globalAlpha=0.7; 
+        context.fillStyle="red";
+        context.strokeStyle = "black";
+        context.lineWidth = 2;
+        context.fill();
+
+
+        context.translate( -x1-w/2, -y1-h/2 );
+        context.fillRect( x1, y1, w, h );
+
+        context.arc(x1+w/2, y1+h/2, 0.5*(h-4), 0, 2 * Math.PI);
+        context.stroke();
+
+
+        // restore the context to its untranslated/unrotated state
+        context.restore();
+
+
+        // first save the untranslated/unrotated context
+        context.save();
+
+
+        h = 6*scale;
+        y1 = y*scale-h/2;
+
+        context.beginPath();
+        // move the rotation point to the center of the rect
+        context.translate( x1+w/2, y1+h/2 );
+        // rotate the rect
+        context.rotate(dir);
+
+        // draw the rect on the transformed context
+        // Note: after transforming [0,0] is visually [x,y]
+        //       so the rect needs to be offset accordingly when drawn
+        context.rect( 0, -h/2, w,h);
+
+        context.globalAlpha=1; 
+        context.fillStyle="green";
+        context.strokeStyle = "black";
+        context.lineWidth = 2;
+        context.fill();
+
+  
+        // Uncomment these two lines for rectangular fill
+        // context.translate( -x1, -y1-h/2 );
+        //context.fillRect( x1, y1, w, h );
+        context.stroke();
+
+
+
+
+        // restore the context to its untranslated/unrotated state
+        context.restore();
+
+
+
+ //}

@@ -1,0 +1,68 @@
+//function DifferentialDriveRobot(context, x, y, angle, wheelCount, color) {
+    var angle = angle || 0; // Default angle is 0 radians
+    var wheelCount = wheelCount || 2; // Default to 2 wheels
+    var color = color || 'blue'; // Default color is blue
+
+    context.save();
+    context.translate(x, y);
+    context.rotate(angle);
+
+    // Customize the robot's appearance
+    context.fillStyle = color;
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+
+    var scale = 1;
+    var chassisWidth = 40 * scale;
+    var chassisLength = 60 * scale;
+    var chassisX = -chassisWidth / 2;
+    var chassisY = -chassisLength / 2;
+
+    // Draw the chassis
+    context.fillRect(chassisX, chassisY, chassisWidth, chassisLength);
+    context.strokeRect(chassisX, chassisY, chassisWidth, chassisLength);
+
+    // Draw the wheels based on the wheel count
+    var wheelRadius = 10 * scale;
+    var wheelY = chassisY + chassisLength / 2;
+
+    if (wheelCount >= 2) {
+        context.beginPath();
+        context.arc(chassisX + chassisWidth / 4, wheelY, wheelRadius, 0, 2 * Math.PI);
+        context.arc(chassisX + 3 * chassisWidth / 4, wheelY, wheelRadius, 0, 2 * Math.PI);
+        context.fill();
+        context.stroke();
+    }
+
+    if (wheelCount >= 3) {
+        context.beginPath();
+        context.arc(chassisX + chassisWidth / 2, wheelY, wheelRadius, 0, 2 * Math.PI);
+        context.fill();
+        context.stroke();
+    }
+
+    if (wheelCount >= 4) {
+        context.beginPath();
+        context.arc(chassisX + chassisWidth / 2, chassisY + 10 * scale, wheelRadius, 0, 2 * Math.PI);
+        context.fill();
+        context.stroke();
+
+        context.beginPath();
+        context.arc(chassisX + chassisWidth / 2, chassisY + chassisLength - 10 * scale, wheelRadius, 0, 2 * Math.PI);
+        context.fill();
+        context.stroke();
+    }
+
+    context.restore();
+//}
+
+// Usage example:
+// DifferentialDriveRobot(context, x, y, angle, 4, "red"); // Customize the wheel count and color if needed
+
+
+
+
+
+
+
+
