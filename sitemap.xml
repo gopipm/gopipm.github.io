@@ -68,7 +68,7 @@
         
         <url>
             <loc>https://gopipm.github.io/categories/</loc>
-            <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -110,7 +110,7 @@
         
         <url>
             <loc>https://gopipm.github.io/</loc>
-            <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -165,22 +165,29 @@
     
         
         <url>
-            <loc>https://gopipm.github.io/robots/robot-canvas-draw/</loc>
+            <loc>https://gopipm.github.io/robots/robot-canvas-draw-demo/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/robots/robot-canvas-draw/</loc>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>https://gopipm.github.io/tags/robots/</loc>
-            <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>https://gopipm.github.io/categories/robots/</loc>
-            <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -194,7 +201,7 @@
         
         <url>
             <loc>https://gopipm.github.io/tags/</loc>
-            <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+            <lastmod>2023-10-13T00:00:00+00:00</lastmod>
         </url>
         
     
