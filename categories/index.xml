@@ -2,97 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gopi Palaniappan</title>
-    <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/</link>
+    <link>https://gopipm.github.io/categories/</link>
     <description>Recent content in Categories on Gopi Palaniappan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://gopipm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/about/</link>
+      <link>https://gopipm.github.io/categories/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/about/</guid>
+      <guid>https://gopipm.github.io/categories/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/art/</link>
+      <link>https://gopipm.github.io/categories/art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/art/</guid>
+      <guid>https://gopipm.github.io/categories/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/blog/</link>
+      <link>https://gopipm.github.io/categories/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/blog/</guid>
+      <guid>https://gopipm.github.io/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>credits</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/credits/</link>
+      <link>https://gopipm.github.io/categories/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/credits/</guid>
+      <guid>https://gopipm.github.io/categories/credits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gopi</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/gopi/</link>
+      <link>https://gopipm.github.io/categories/gopi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/gopi/</guid>
+      <guid>https://gopipm.github.io/categories/gopi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palaniappan</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/palaniappan/</link>
+      <link>https://gopipm.github.io/categories/palaniappan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/palaniappan/</guid>
+      <guid>https://gopipm.github.io/categories/palaniappan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/projects/</link>
+      <link>https://gopipm.github.io/categories/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/projects/</guid>
+      <guid>https://gopipm.github.io/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robots</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/robots/</link>
+      <link>https://gopipm.github.io/categories/robots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/robots/</guid>
+      <guid>https://gopipm.github.io/categories/robots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/tech/</link>
+      <link>https://gopipm.github.io/categories/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/tech/</guid>
+      <guid>https://gopipm.github.io/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thanks</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/thanks/</link>
+      <link>https://gopipm.github.io/categories/thanks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/categories/thanks/</guid>
+      <guid>https://gopipm.github.io/categories/thanks/</guid>
       <description></description>
     </item>
     

@@ -2,97 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gopi Palaniappan</title>
-    <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/</link>
+    <link>https://gopipm.github.io/tags/</link>
     <description>Recent content in Tags on Gopi Palaniappan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://gopipm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/about/</link>
+      <link>https://gopipm.github.io/tags/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/about/</guid>
+      <guid>https://gopipm.github.io/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/art/</link>
+      <link>https://gopipm.github.io/tags/art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/art/</guid>
+      <guid>https://gopipm.github.io/tags/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/blog/</link>
+      <link>https://gopipm.github.io/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/blog/</guid>
+      <guid>https://gopipm.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>credits</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/credits/</link>
+      <link>https://gopipm.github.io/tags/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/credits/</guid>
+      <guid>https://gopipm.github.io/tags/credits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gopi</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/gopi/</link>
+      <link>https://gopipm.github.io/tags/gopi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/gopi/</guid>
+      <guid>https://gopipm.github.io/tags/gopi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palaniappan</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/palaniappan/</link>
+      <link>https://gopipm.github.io/tags/palaniappan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/palaniappan/</guid>
+      <guid>https://gopipm.github.io/tags/palaniappan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/projects/</link>
+      <link>https://gopipm.github.io/tags/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/projects/</guid>
+      <guid>https://gopipm.github.io/tags/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robots</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/robots/</link>
+      <link>https://gopipm.github.io/tags/robots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/robots/</guid>
+      <guid>https://gopipm.github.io/tags/robots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/tech/</link>
+      <link>https://gopipm.github.io/tags/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/tech/</guid>
+      <guid>https://gopipm.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thanks</title>
-      <link>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/thanks/</link>
+      <link>https://gopipm.github.io/tags/thanks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.86.21:8000/dev/working/09-Website/hugo-website-src/public/tags/thanks/</guid>
+      <guid>https://gopipm.github.io/tags/thanks/</guid>
       <description></description>
     </item>
     
