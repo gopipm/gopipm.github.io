@@ -15,7 +15,7 @@
 
     // Load a custom arrow icon
     var icon = new Image();
-    icon.src = "images/arrowsmall.png"; // Replace with your custom arrow image
+    icon.src = "/images/arrowsmall.png"; // Replace with your custom arrow image
 
     // Calculate the scale based on canvas dimensions
     var a = (window.innerWidth * window.innerHeight) * 0.0006;
