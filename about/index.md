@@ -22,18 +22,14 @@ Welcome to my personal website! I'm Gopi Palaniappan, a Technical Program Manage
 
 - **Education:** I love to educate. I ran coding classes for kids, teaching them to create their own Android apps using tools like Scratch, App Inventor, Arduino, and Makey Makey.
 
+
 ## Professional Experience
 
-- **Motorola Mobility:** My career kicked off at Motorola Mobility, where I evolved from a software engineer to a program manager. I was responsible for Android phone development, DevOps, and managing vendor software royalties and open-source software compliance.
+### [Google Inc.](https://google.com/) (2017–Present) : Senior Technical Program Manager, Android XR Platform
+- I am currently program managing Android XR platform and have also led programs at Nest Wifi, Pixel Phones & Google Cloud Storage
 
-        <ul>
-            <li><strong>2017–Present:</strong> <a href="https://google.com/">Google Inc.</a>
-                <br> Senior Technical Program Manager, Android XR Platform
-            </li>
-            <li><strong>   1999–2017:</strong> <a href="https://motorola.com/">Motorola</a>
-                <br> Distinguished Member of Technical Staff (R&D) / Operations Manager, Motorola Mobility
-            </li>
-        </ul>
+### [Motorola.(now a Lenovo comany)](https://motorola.com/) (1999–2017) : Distinguished Member of Technical Staff (R&D) / Operations Manager, Motorola Mobility
+- My career kicked off at Motorola Mobility, where I evolved from a software engineer to a program manager. I was responsible for Android phone development, DevOps, and managing vendor software royalties and open-source software compliance.
 
 
 ## Education and Interests
