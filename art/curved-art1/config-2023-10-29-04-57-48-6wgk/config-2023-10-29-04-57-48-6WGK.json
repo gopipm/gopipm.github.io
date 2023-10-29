@@ -1,0 +1,9 @@
+{
+  "seed": 123,
+  "grid_size": 6,
+  "diverseness": 5,
+  "palette": 0,
+  "flip_colors": 1,
+  "line_only": 0,
+  "line_thickness": 0.2425098648989199
+}
