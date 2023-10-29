@@ -25,18 +25,9 @@ OPC.slider('line_thickness', 0.5, 0, 1, 0.25);
 */
 /** OPC END**/
 
+let config = null;
+
 /*
-let seed = Math.floor(Math.random() * 1000);
-let grid_size = Math.floor(Math.random() * 12);
-let diverseness = Math.floor(Math.random() * MAX_TILES);
-let palette = Math.floor(Math.random() * (palettes.length - 1));
-let flip_colors = Math.floor(Math.random() * (20)) % 2;
-let line_only = Math.floor(Math.random() * (20)) % 2;
-let line_thickness = Math.random() * 1;
-*/
-
-//let config = null;
-
 // Function to parse the URL query parameters
 function getQueryParam(name) {
     try {
@@ -77,16 +68,43 @@ if (configURL) {
         });
 
 }
+*/
+
+config = {};
+
+config.seed = Math.floor(Math.random() * 1000);
+config.grid_size = Math.floor(Math.random() * 12);
+config.diverseness = Math.floor(Math.random() * MAX_TILES);
+config.palette = Math.floor(Math.random() * (palettes.length - 1));
+config.flip_colors = Math.floor(Math.random() * (20)) % 2;
+config.line_only = Math.floor(Math.random() * (20)) % 2;
+config.line_thickness = Math.random() * 1;
 
 
-try {
-  var config = JSON.parse(config1);
-  //console.log(config);
-} catch (error) {
-  console.error("Error parsing JSON: " + error);
+function loadJSONData() {
+  let url = jsonURLInput.value();
+	console.log(url);
+  loadJSON(url, dataLoaded);
+	pixelDensity(2);
+  imageMode(CENTER);
+
+  textSize(20);
+  fill(0, 255, 0);
+	
+	draw();
 }
 
-//console.log(config.seed, config.palette, config.line_only, config.line_thickness, config.diverseness);
+function dataLoaded(data) {
+  // This function is called when the JSON data is loaded
+  jsonData = data;
+
+  // Now you can use the jsonData object in your sketch
+  //console.log(jsonData);
+
+  // Example: Access specific properties
+  config = data;
+  // ...
+}
 
 
 /*
@@ -113,6 +131,28 @@ config = {
 }
 */
 
+
+// Function to convert JSON object to text
+function convertJSONToText(obj) {
+  let text = "+++\n";
+
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      let value = obj[key];
+      if (typeof value === 'string') {
+        // If the value is a string, enclose it in double quotes
+        text += key + ' = "' + value + '"\n';
+      } else {
+        text += key + ' = ' + value + '\n';
+      }
+    }
+  }
+
+  text += "+++\n";
+  return text;
+}
+
+
 function keyPressed() {
     if (key === 'j' || key === 'J') {
         // Convert the canvas data to JSON
@@ -134,6 +174,15 @@ function keyPressed() {
 
         // Save the JSON data to a file
         saveJSON(config, filename + ".json");
+			
+			  config.image = "thumbnail-"+timestamp+".png";
+        config.type = "p5js";
+			
+			  let textToSave = convertJSONToText(config);
+			
+			  let writer = createWriter(filename + ".md");
+        writer.print(textToSave);
+        writer.close();
 
         var size = 700;
 
@@ -190,6 +239,13 @@ let tile;
 let possibilities;
 
 function setup() {
+	  jsonURLInput = createInput(" ");
+    jsonURLInput.position(10+500, height + 10);
+
+    let loadButton = createButton("Load JSON");
+    loadButton.position(jsonURLInput.x + jsonURLInput.width, jsonURLInput.y);
+    loadButton.mousePressed(loadJSONData);
+	
     createCanvas(windowWidth, windowHeight);
     pixelDensity(2);
     imageMode(CENTER);
@@ -197,13 +253,9 @@ function setup() {
     textSize(20);
     fill(0, 255, 0);
 
-
-    
-
 }
 
 function draw() {
-
 
 
     randomSeed(config.seed);
@@ -241,7 +293,7 @@ function draw() {
     stroke(0);
     fill(0, 255, 0);
     //write my text
-    //printText(config);
+    printText(config);
 
 
     //fill(colors[1]);
@@ -278,7 +330,7 @@ function draw() {
         text(fr, 5, 5)
         */
 
- noLoop();
+	 noLoop();
 
 }
 
