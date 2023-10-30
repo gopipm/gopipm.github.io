@@ -3,7 +3,7 @@
  ***************************************************************************************/
 class Configuration {
     constructor() {
-        this.config = null;
+        this.config = config || null;
         // Fetch and process the JSON configuration file
         this.configURL = this.getQueryParam("configURL");
         if (this.configURL) {
@@ -197,7 +197,7 @@ function printText(data) {
  * INITIALIZE CONFIG PARAMS
  ***************************************************************************************/
 // Create instances of the classes
-let config = null;
+let mconfig = null;
 let jsonURLInput;
 let jsonLoader;
 let markdownGenerator;
@@ -220,12 +220,12 @@ const palettes = [
  ***************************************************************************************/
 function setup() {
 
-    config = new Configuration();
+    mconfig = new Configuration();
     /*
     jsonURLInput = createInput(" ");
     jsonURLInput.position(10 + 500, height + 10);
    */
-    jsonLoader = new JSONLoader(jsonURLInput, config);
+    jsonLoader = new JSONLoader(jsonURLInput, mconfig);
     /*
      let loadButton = createButton("Load JSON");
      loadButton.position(jsonURLInput.x + jsonURLInput.width, jsonURLInput.y);
@@ -235,7 +235,7 @@ function setup() {
     markdownGenerator = new MarkdownGenerator();
 
     // Initialize config
-    config.init();
+    mconfig.init();
     createCanvas(windowWidth, windowHeight);
     pixelDensity(2);
     imageMode(CENTER);
@@ -243,7 +243,7 @@ function setup() {
     textSize(20);
     fill(0, 255, 0);
 
-    let c = config.getConfig();
+    let c = mconfig.getConfig();
     randomSeed(c.seed);
 
     //console.log(c.seed);
@@ -269,7 +269,7 @@ function keyPressed() {
             '-' + nf(now.getSeconds(), 2) +
             '-' + generateRandomString(4); // Generate a random alphanumeric string of length 4
 
-        let c = config.getConfig();
+        let c = mconfig.getConfig();
 
         c.image = "thumbnail-" + timestamp + ".png";
         c.type = "p5js";
@@ -311,7 +311,7 @@ function keyPressed() {
             "height": size, // Height of the bounding box
         });
 
-        config.loadConfig(c);
+        mconfig.loadConfig(c);
 
 
     }
@@ -328,11 +328,11 @@ function windowResized() {
  ***************************************************************************************/
 function draw() {
 
-    if (config) {
-        let c = config.getConfig();
+    if (mconfig) {
+        let c = mconfig.getConfig();
 
 
-        if (c && ((jsonLoader.redrawFlag) || (config.redrawFlag))) {
+        if (c && ((jsonLoader.redrawFlag) || (mconfig.redrawFlag))) {
             randomSeed(c.seed);
 
             colors = palettes[c.palette];
@@ -381,7 +381,7 @@ function draw() {
 
             // Reset the redraw flag to prevent continuous redraws
             jsonLoader.redrawFlag = false;
-            config.redrawFlag = false;
+            mconfig.redrawFlag = false;
         }
 
 
