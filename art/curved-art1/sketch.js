@@ -1,5 +1,4 @@
-// Combinaisons
-// Roni Kaufman, August 2021
+// Credits : https://openprocessing.org/sketch/1241191 : Combinaisons by Roni Kaufman
 
 var tt = 20
 var fr = 0
@@ -13,21 +12,8 @@ const palettes = [
     ["#3cd86b", "#ebf7cd", "#0d150b"]
 ];
 
-/** OPC START **/
-/*
-OPC.slider('seed', Math.floor(Math.random()*1000), 0, 1000, 1);
-OPC.slider('grid_size', 8, 4, 12, 1);
-OPC.slider('diverseness', 3, 1, MAX_TILES, 1);
-OPC.slider('palette', 0, 0, palettes.length-1, 1);
-OPC.slider('flip_colors', 0, 0, 1, 1);
-OPC.slider('line_only', 0, 0, 1, 1);
-OPC.slider('line_thickness', 0.5, 0, 1, 0.25);
-*/
-/** OPC END**/
+var config = config || null;
 
-let config = null;
-
-/*
 // Function to parse the URL query parameters
 function getQueryParam(name) {
     try {
@@ -68,88 +54,65 @@ if (configURL) {
         });
 
 }
-*/
 
-config = {};
+if (config == null) {
+    config = {};
 
-config.seed = Math.floor(Math.random() * 1000);
-config.grid_size = Math.floor(Math.random() * 12);
-config.diverseness = Math.floor(Math.random() * MAX_TILES);
-config.palette = Math.floor(Math.random() * (palettes.length - 1));
-config.flip_colors = Math.floor(Math.random() * (20)) % 2;
-config.line_only = Math.floor(Math.random() * (20)) % 2;
-config.line_thickness = Math.random() * 1;
+    config.seed = Math.floor(Math.random() * 1000);
+    config.grid_size = Math.floor(Math.random() * 12);
+    config.diverseness = Math.floor(Math.random() * MAX_TILES);
+    config.palette = Math.floor(Math.random() * (palettes.length - 1));
+    config.flip_colors = Math.floor(Math.random() * (20)) % 2;
+    config.line_only = Math.floor(Math.random() * (20)) % 2;
+    config.line_thickness = Math.random() * 1;
+}
+
 
 
 function loadJSONData() {
-  let url = jsonURLInput.value();
-	console.log(url);
-  loadJSON(url, dataLoaded);
-	pixelDensity(2);
-  imageMode(CENTER);
+    let url = jsonURLInput.value();
+    console.log(url);
+    loadJSON(url, dataLoaded);
+    pixelDensity(2);
+    imageMode(CENTER);
 
-  textSize(20);
-  fill(0, 255, 0);
-	
-	draw();
+    textSize(20);
+    fill(0, 255, 0);
+
+    draw();
 }
 
 function dataLoaded(data) {
-  // This function is called when the JSON data is loaded
-  jsonData = data;
+    // This function is called when the JSON data is loaded
+    jsonData = data;
 
-  // Now you can use the jsonData object in your sketch
-  //console.log(jsonData);
+    // Now you can use the jsonData object in your sketch
+    //console.log(jsonData);
 
-  // Example: Access specific properties
-  config = data;
-  // ...
+    // Example: Access specific properties
+    config = data;
+    // ...
 }
-
-
-/*
-config = {
-  "seed": 939,
-  "grid_size": 11,
-  "diverseness": 1,
-  "palette": 2,
-  "flip_colors": 1,
-  "line_only": 0,
-  "line_thickness": 0.7485147438328434
-}
-*/
-
-/*
-config = {
-  "seed": 900,
-  "grid_size": 11,
-  "diverseness": 5,
-  "palette": 0,
-  "flip_colors": 0,
-  "line_only": 0,
-  "line_thickness": 0.7871023595097837
-}
-*/
 
 
 // Function to convert JSON object to text
 function convertJSONToText(obj) {
-  let text = "+++\n";
+    let text = "+++\n";
 
-  for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      let value = obj[key];
-      if (typeof value === 'string') {
-        // If the value is a string, enclose it in double quotes
-        text += key + ' = "' + value + '"\n';
-      } else {
-        text += key + ' = ' + value + '\n';
-      }
+    for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+            let value = obj[key];
+            if (typeof value === 'string') {
+                // If the value is a string, enclose it in double quotes
+                text += key + ' = "' + value + '"\n';
+            } else {
+                text += key + ' = ' + value + '\n';
+            }
+        }
     }
-  }
 
-  text += "+++\n";
-  return text;
+    text += "+++\n";
+    return text;
 }
 
 
@@ -174,13 +137,13 @@ function keyPressed() {
 
         // Save the JSON data to a file
         saveJSON(config, filename + ".json");
-			
-			  config.image = "thumbnail-"+timestamp+".png";
+
+        config.image = "thumbnail-" + timestamp + ".png";
         config.type = "p5js";
-			
-			  let textToSave = convertJSONToText(config);
-			
-			  let writer = createWriter(filename + ".md");
+
+        let textToSave = convertJSONToText(config);
+
+        let writer = createWriter(filename + ".md");
         writer.print(textToSave);
         writer.close();
 
@@ -220,7 +183,7 @@ function keyPressed() {
 }
 
 function generateRandomString(length) {
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
     for (let i = 0; i < length; i++) {
         result += characters.charAt(Math.floor(Math.random() * characters.length));
@@ -239,14 +202,16 @@ let tile;
 let possibilities;
 
 function setup() {
-	  jsonURLInput = createInput(" ");
-    jsonURLInput.position(10+500, height + 10);
+/*
+    jsonURLInput = createInput(" ");
+    jsonURLInput.position(10 + 500, height + 10);
 
     let loadButton = createButton("Load JSON");
     loadButton.position(jsonURLInput.x + jsonURLInput.width, jsonURLInput.y);
     loadButton.mousePressed(loadJSONData);
-	
-    createCanvas(windowWidth, windowHeight);
+*/
+
+    createCanvas(1000, 900);
     pixelDensity(2);
     imageMode(CENTER);
 
@@ -279,39 +244,23 @@ function draw() {
         possibilities.splice(floor(random(possibilities.length)), 1);
     }
 
-    let realSize = floor(min(windowWidth, windowHeight) * 0.8);
+    let realSize = floor(min(windowWidth, windowHeight) );
     let xCorner = width / 2 - realSize / 2;
-    let yCorner = height / 2 - realSize / 2 + 50;
+    let yCorner = height / 2 - realSize / 2 ;
     let s = floor(realSize / config.grid_size);
     let sw = map(config.line_thickness, 0, 1, 0, s / 15);
 
     translate(xCorner - 500, yCorner);
 
-    //background(colors[0]);
-    background(0);
+    background(colors[0]);
+    //background(0);
     textSize(20);
     stroke(0);
     fill(0, 255, 0);
     //write my text
-    printText(config);
+    //printText(config);
 
 
-    //fill(colors[1]);
-    /*
-    fill(0);
-    strokeWeight(sw);
-    stroke(colors[2]);
-    for (let i = 0; i < config.grid_size; i++) {
-        circle(i*s+3*s/10, 0, s/5);
-        circle(i*s+3*s/10, config.grid_size*s, s/5);
-        circle(i*s+7*s/10, 0, s/5);
-        circle(i*s+7*s/10, config.grid_size*s, s/5);
-        circle(0, i*s+3*s/10, s/5);
-        circle(config.grid_size*s, i*s+3*s/10, s/5);
-        circle(0, i*s+7*s/10, s/5);
-        circle(config.grid_size*s, i*s+7*s/10, s/5);
-    }
-    */
 
     tile = createGraphics(s, s);
     for (let i = 0; i < 2.2 * config.grid_size; i++) {
@@ -320,17 +269,8 @@ function draw() {
         }
     }
 
-    /*
-        if(tt > 20) {
-        fr = round(frameRate())
-        tt = 0
-    }else{
-        tt += 1
-    }
-        text(fr, 5, 5)
-        */
 
-	 noLoop();
+    noLoop();
 
 }
 
