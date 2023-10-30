@@ -1,0 +1,13 @@
+{
+  "seed": 827,
+  "grid_size": 4,
+  "diverseness": 5,
+  "palette": 3,
+  "flip_colors": 1,
+  "line_only": 1,
+  "line_thickness": 0.8046105277171871,
+  "image": "thumbnail-2023-10-30-01-25-57-dysc.png",
+  "type": "p5js",
+  "title": "Combinaisons",
+  "credits": "Credits : https://openprocessing.org/sketch/1241191 : Combinaisons by Roni Kaufman"
+}
