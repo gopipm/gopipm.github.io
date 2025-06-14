@@ -1778,6 +1778,16 @@ The theme is released under the MIT License. Check the original theme license fo
     </item>
     
     <item>
+      <title>Interactive Self-Learning Robot</title>
+      <link>https://gopipm.github.io/projects/003-self-learning-robot/index_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/projects/003-self-learning-robot/index_/</guid>
+      <description>A Glimpse into Machine Learning This fascinating project provides an interactive window into the world of artificial intelligence, specifically reinforcement learning. You are presented with a simple car (our &amp;ldquo;robot&amp;rdquo;) on a track. Its goal? To learn how to navigate the track on its own.
+By clicking &amp;ldquo;Train&amp;rdquo;, you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a &amp;ldquo;brain&amp;rdquo; or a policy that guides it toward successful navigation.</description>
+    </item>
+    
+    <item>
       <title>Introduction</title>
       <link>https://gopipm.github.io/credits/what-is-hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

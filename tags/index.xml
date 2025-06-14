@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>ai</title>
+      <link>https://gopipm.github.io/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>arcade</title>
       <link>https://gopipm.github.io/tags/arcade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -151,6 +160,15 @@
     </item>
     
     <item>
+      <title>machine-learning</title>
+      <link>https://gopipm.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>multilingual</title>
       <link>https://gopipm.github.io/tags/multilingual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -214,6 +232,24 @@
     </item>
     
     <item>
+      <title>reinforcement-learning</title>
+      <link>https://gopipm.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robot</title>
+      <link>https://gopipm.github.io/tags/robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/tags/robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>robots</title>
       <link>https://gopipm.github.io/tags/robots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -228,6 +264,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gopipm.github.io/tags/shapes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>https://gopipm.github.io/tags/simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/tags/simulation/</guid>
       <description></description>
     </item>
     

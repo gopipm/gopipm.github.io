@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javascript on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/javascript/</link>
-    <description>Recent content in javascript on Gopi Palaniappan</description>
+    <title>ai on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/tags/ai/</link>
+    <description>Recent content in ai on Gopi Palaniappan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gopipm.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Classic Apple Catch Game</title>
-      <link>https://gopipm.github.io/projects/002-apple-catch/index_/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gopipm.github.io/projects/002-apple-catch/index_/</guid>
-      <description>A Fun, Fast-Paced Arcade Game Get ready for some classic arcade fun with &amp;ldquo;Apple Catch&amp;rdquo;! This charming game challenges your reflexes with a simple, addictive goal: move the basket at the bottom of the screen to catch the red apples as they fall.
-The controls are intuitive – just move your mouse left and right to guide the basket. Each apple you successfully catch adds to your score, which is proudly displayed in the top-left corner.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://gopipm.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interactive Self-Learning Robot</title>
       <link>https://gopipm.github.io/projects/003-self-learning-robot/index_/</link>
