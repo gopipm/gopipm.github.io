@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Self-Learning Robot - Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto max-w-4xl px-4 py-8 sm:py-12">
+        <article class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="p-6 sm:p-8">
+                <!-- Header -->
+                <div class="mb-6">
+                    <p class="text-sm text-gray-500 mb-2">Published on July 26, 2024</p>
+                    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">Interactive Self-Learning Robot</h1>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-1 rounded-full">machine-learning</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-1 rounded-full">ai</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-1 rounded-full">reinforcement-learning</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-1 rounded-full">javascript</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-1 rounded-full">simulation</span>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="prose prose-lg max-w-none text-gray-700">
+                    <h2 class="text-xl font-semibold text-gray-800 mt-8 mb-4">A Glimpse into Machine Learning</h2>
+                    <p>This fascinating project provides an interactive window into the world of artificial intelligence, specifically <strong>reinforcement learning</strong>. You are presented with a simple car (our "robot") on a track. Its goal? To learn how to navigate the track on its own.</p>
+                    <p>By clicking "Train", you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a "brain" or a policy that guides it toward successful navigation. Once trained, you can "Test" its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It's a powerful, visual demonstration of how a machine can learn from experience.</p>
+                    
+                    <p class="mt-4"><strong>Project Link:</strong> <a href="https://gopipm.github.io/projects/003%20-%20Self%20Learning%20Robot/" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Experiment with the Self-Learning Robot</a></p>
+
+                    <h2 class="text-xl font-semibold text-gray-800 mt-8 mb-4">Technologies Used</h2>
+                    <p>The simulation is a clever combination of web technologies and machine learning concepts:</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li><strong>HTML5 Canvas:</strong> Renders the track, the robot, and the environment.</li>
+                        <li><strong>JavaScript:</strong> Powers the entire simulation, including the physics, controls, and the reinforcement learning algorithm.</li>
+                        <li><strong>Neural Networks/Reinforcement Learning:</strong> Core AI concepts are used to create the robot's learning ability.</li>
+                    </ul>
+
+                    <h2 class="text-xl font-semibold text-gray-800 mt-8 mb-4">Recommendations & Future Improvements</h2>
+                    <p>This is a fantastic educational tool. Here are some ideas to take it even further:</p>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li><strong>Visualize the Brain:</strong> Add a real-time visualization of the robot's neural network to show how its "neurons" fire as it makes decisions.</li>
+                        <li><strong>Custom Tracks:</strong> Implement a track editor that allows users to draw their own roads and obstacles.</li>
+                        <li><strong>More Complex Environments:</strong> Introduce intersections, other cars to avoid, or dynamic obstacles.</li>
+                        <li><strong>Adjustable Learning Parameters:</strong> Add UI controls to let users tweak the learning rate, sensor count, or other hyperparameters to see how they affect the training process.</li>
+                        <li><strong>Different Goals:</strong> Create new challenges, like teaching the robot to park or to follow a specific "leader" car.</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
