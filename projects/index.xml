@@ -6,5 +6,20 @@
     <description>Recent content in Projects on Gopi Palaniappan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://gopipm.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://gopipm.github.io/projects/001-hello-world/index_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/projects/001-hello-world/index_/</guid>
+      <description>+++
+date = &amp;ldquo;2024-07-26&amp;rdquo;
+title = &amp;ldquo;Hello World in Many Languages&amp;rdquo;
+tags = [&amp;ldquo;hello-world&amp;rdquo;, &amp;ldquo;multilingual&amp;rdquo;, &amp;ldquo;html&amp;rdquo;, &amp;ldquo;css&amp;rdquo;, &amp;ldquo;gemini&amp;rdquo;]
+categories = [&amp;ldquo;Projects&amp;rdquo;]
++++
+A Global Greeting Card This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.</description>
+    </item>
+    
   </channel>
 </rss>

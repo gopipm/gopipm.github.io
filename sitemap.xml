@@ -185,6 +185,12 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/projects/001-hello-world/index_/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/about/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
         </url>
