@@ -185,12 +185,6 @@
     
         
         <url>
-            <loc>https://gopipm.github.io/projects/001-hello-world/index_/</loc>
-        </url>
-        
-    
-        
-        <url>
             <loc>https://gopipm.github.io/tags/about/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
         </url>
@@ -248,7 +242,7 @@
         
         <url>
             <loc>https://gopipm.github.io/categories/</loc>
-            <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1267,6 +1261,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/css/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/curved/</loc>
             <lastmod>2023-10-29T00:00:00+00:00</lastmod>
         </url>
@@ -1302,6 +1303,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/gemini/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/gopi/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
         </url>
@@ -1317,7 +1325,28 @@
         
         <url>
             <loc>https://gopipm.github.io/</loc>
-            <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/projects/001-hello-world/index_/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/hello-world/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/html/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1332,6 +1361,13 @@
         <url>
             <loc>https://gopipm.github.io/credits/what-is-hugo/</loc>
             <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/multilingual/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1415,7 +1451,7 @@
         
         <url>
             <loc>https://gopipm.github.io/categories/projects/</loc>
-            <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1511,7 +1547,7 @@
         
         <url>
             <loc>https://gopipm.github.io/tags/</loc>
-            <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     

@@ -278,21 +278,6 @@ The Google Voyage Android XR Platform: At Google, I&amp;rsquo;ve been at the for
     </item>
     
     <item>
-      <title></title>
-      <link>https://gopipm.github.io/projects/001-hello-world/index_/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gopipm.github.io/projects/001-hello-world/index_/</guid>
-      <description>+++
-date = &amp;ldquo;2024-07-26&amp;rdquo;
-title = &amp;ldquo;Hello World in Many Languages&amp;rdquo;
-tags = [&amp;ldquo;hello-world&amp;rdquo;, &amp;ldquo;multilingual&amp;rdquo;, &amp;ldquo;html&amp;rdquo;, &amp;ldquo;css&amp;rdquo;, &amp;ldquo;gemini&amp;rdquo;]
-categories = [&amp;ldquo;Projects&amp;rdquo;]
-+++
-A Global Greeting Card This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.</description>
-    </item>
-    
-    <item>
       <title>Combinaisons</title>
       <link>https://gopipm.github.io/art/curved-art/config-2023-10-30-10-09-31-98qu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1757,6 +1742,16 @@ A Global Greeting Card This project is a simple yet elegant demonstration of one
       
       <guid>https://gopipm.github.io/art/curved-art2/config-2023-10-30-01-26-21-i7y8/</guid>
       <description>{ &amp;#34;seed&amp;#34;: 184, &amp;#34;grid_size&amp;#34;: 5, &amp;#34;diverseness&amp;#34;: 2, &amp;#34;palette&amp;#34;: 4, &amp;#34;flip_colors&amp;#34;: 0, &amp;#34;line_only&amp;#34;: 1, &amp;#34;line_thickness&amp;#34;: 0.44764970279198835, &amp;#34;image&amp;#34;: &amp;#34;thumbnail-2023-10-30-01-26-21-i7y8.png&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;p5js&amp;#34;, &amp;#34;title&amp;#34;: &amp;#34;Combinaisons&amp;#34;, &amp;#34;credits&amp;#34;: &amp;#34;Credits : https://openprocessing.org/sketch/1241191 : Combinaisons by Roni Kaufman&amp;#34; } Combinaisons Credits : https://openprocessing.org/sketch/1241191 : Combinaisons by Roni Kaufman </description>
+    </item>
+    
+    <item>
+      <title>Hello World in Many Languages</title>
+      <link>https://gopipm.github.io/projects/001-hello-world/index_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gopipm.github.io/projects/001-hello-world/index_/</guid>
+      <description>A Global Greeting Card This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.
+Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts.</description>
     </item>
     
     <item>
