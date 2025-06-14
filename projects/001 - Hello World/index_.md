@@ -1,9 +1,9 @@
-\+++  
-date \= "2024-07-26"  
-title \= "Hello World in Many Languages"  
-tags \= \["hello-world", "multilingual", "html", "css", "gemini"\]  
-categories \= \["Projects"\]  
-\+++
++++  
+date = "2025-06-13"  
+title = "Hello World in Many Languages"  
+tags = ["hello-world", "multilingual", "html", "css", "gemini"]  
+categories = ["Projects"]  
++++
 
 ### **A Global Greeting Card**
 
