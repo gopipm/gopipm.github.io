@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thanks on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/tags/thanks/</link>
+    <description>Recent content in Thanks on Gopi Palaniappan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gopipm.github.io/tags/thanks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Credits</title>
+      <link>https://gopipm.github.io/credits/</link>
+      <pubDate>Wed, 11 Oct 2023 21:50:48 -0700</pubDate>
+      <guid>https://gopipm.github.io/credits/</guid>
+      <description>&lt;h2 id=&#34;thank-you-and-all-due-credits-to-everyone-who-contributed-to-this-site&#34;&gt;Thank you and all due credits to everyone who contributed to this site!!!&lt;/h2&gt; &lt;h3 id=&#34;1-hugo-theme-console&#34;&gt;1. &lt;a href=&#34;./hugo-theme-console&#34;&gt;hugo-theme-console&lt;/a&gt; &lt;/h3&gt; &lt;h3 id=&#34;2-hugo&#34;&gt;2. &lt;a href=&#34;./what-is-hugo/&#34;&gt;hugo&lt;/a&gt; &lt;/h3&gt; &lt;h3 id=&#34;3-github&#34;&gt;3. &lt;a href=&#34;github.com&#34;&gt;github&lt;/a&gt; &lt;/h3&gt; &lt;h3 id=&#34;4-github-corners&#34;&gt;4. &lt;a href=&#34;https://tholman.com/github-corners/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github corners&lt;/a&gt; &lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>

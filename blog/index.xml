@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/blog/</link>
+    <description>Recent content in Blog on Gopi Palaniappan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gopipm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World in Many Languages</title>
+      <link>https://gopipm.github.io/blog/000-hello-world/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/000-hello-world/</guid>
+      <description>&lt;h3 id=&#34;a-global-greeting-card&#34;&gt;&lt;strong&gt;A Global Greeting Card&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.&lt;/p&gt;&#xA;&lt;p&gt;Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
