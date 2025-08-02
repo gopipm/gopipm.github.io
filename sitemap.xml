@@ -5,7 +5,7 @@
         
         <url>
             <loc>https://gopipm.github.io/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -226,6 +226,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/ai-development/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/arcade/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -283,7 +290,7 @@
         
         <url>
             <loc>https://gopipm.github.io/categories/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -305,6 +312,13 @@
         <url>
             <loc>https://gopipm.github.io/projects/002-apple-catch/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/cli/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1351,6 +1365,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/blog/geminicli/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/game/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -1367,6 +1388,20 @@
         <url>
             <loc>https://gopipm.github.io/tags/gemini/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/gemini-api/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/google/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1658,7 +1693,7 @@
         
         <url>
             <loc>https://gopipm.github.io/tags/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1687,6 +1722,13 @@
         <url>
             <loc>https://gopipm.github.io/tags/thanks/</loc>
             <lastmod>2023-10-11T21:50:48-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/categories/tutorials/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
