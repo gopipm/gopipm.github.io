@@ -15,6 +15,20 @@
       <description>&lt;h3 id=&#34;a-global-greeting-card&#34;&gt;&lt;strong&gt;A Global Greeting Card&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.&lt;/p&gt;&#xA;&lt;p&gt;Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hello World in Many Languages</title>
+      <link>https://gopipm.github.io/projects/001-hello-world/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/001-hello-world/</guid>
+      <description>&lt;h3 id=&#34;a-global-greeting-card&#34;&gt;&lt;strong&gt;A Global Greeting Card&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.&lt;/p&gt;&#xA;&lt;p&gt;Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Self-Learning Robot</title>
+      <link>https://gopipm.github.io/projects/003-self-learning-robot/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/003-self-learning-robot/</guid>
+      <description>&lt;h3 id=&#34;a-glimpse-into-machine-learning&#34;&gt;&lt;strong&gt;A Glimpse into Machine Learning&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This fascinating project provides an interactive window into the world of artificial intelligence, specifically &lt;strong&gt;reinforcement learning&lt;/strong&gt;. You are presented with a simple car (our &amp;ldquo;robot&amp;rdquo;) on a track. Its goal? To learn how to navigate the track on its own.&lt;/p&gt;&#xA;&lt;p&gt;By clicking &amp;ldquo;Train&amp;rdquo;, you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a &amp;ldquo;brain&amp;rdquo; or a policy that guides it toward successful navigation. Once trained, you can &amp;ldquo;Test&amp;rdquo; its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It&amp;rsquo;s a powerful, visual demonstration of how a machine can learn from experience.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Projects</title>
       <link>https://gopipm.github.io/projects/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>

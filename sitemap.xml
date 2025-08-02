@@ -230,6 +230,27 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/ai/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/categories/ai/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/arcade/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/art/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
         </url>
@@ -272,6 +293,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/canvas/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/categories/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -288,6 +316,13 @@
         <url>
             <loc>https://gopipm.github.io/tags/circles/</loc>
             <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/projects/002-apple-catch/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1334,6 +1369,20 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/game/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/categories/games/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/gemini/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -1362,6 +1411,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/projects/001-hello-world/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/hello-world/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -1376,6 +1432,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/html5/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/credits/hugo-theme-console/</loc>
             <lastmod>2016-11-05T21:05:33+05:30</lastmod>
         </url>
@@ -1383,8 +1446,29 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/projects/003-self-learning-robot/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/credits/what-is-hugo/</loc>
             <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/javascript/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/machine-learning/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1488,6 +1572,20 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/reinforcement-learning/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/robot/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/robots/robot-canvas-draw-demo/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
         </url>
@@ -1532,6 +1630,13 @@
         <url>
             <loc>https://gopipm.github.io/tags/shapes/</loc>
             <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/simulation/</loc>
+            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
         
     

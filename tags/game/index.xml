@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/tags/game/</link>
+    <description>Recent content in Game on Gopi Palaniappan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gopipm.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classic Apple Catch Game</title>
+      <link>https://gopipm.github.io/projects/002-apple-catch/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/002-apple-catch/</guid>
+      <description>&lt;h3 id=&#34;a-fun-fast-paced-arcade-game&#34;&gt;&lt;strong&gt;A Fun, Fast-Paced Arcade Game&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;Get ready for some classic arcade fun with &amp;ldquo;Apple Catch&amp;rdquo;! This charming game challenges your reflexes with a simple, addictive goal: move the basket at the bottom of the screen to catch the red apples as they fall.&lt;/p&gt;&#xA;&lt;p&gt;The controls are intuitive – just move your mouse left and right to guide the basket. Each apple you successfully catch adds to your score, which is proudly displayed in the top-left corner. But be careful! The game ends the moment you miss an apple, resetting your score to zero. It&amp;rsquo;s a delightful test of focus and a perfect way to take a quick break.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

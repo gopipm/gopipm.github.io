@@ -246,6 +246,13 @@
       <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;title&gt;Self Learning Robot&lt;/title&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;style.css&#34;&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;    &lt;div class=&#34;container&#34;&gt;&#xA;        &lt;h1&gt;Self Learning Robot Simulation&lt;/h1&gt;&#xA;        &lt;div class=&#34;info-panel&#34;&gt;&#xA;            &lt;p&gt;&lt;strong&gt;Robot Position:&lt;/strong&gt; &lt;span id=&#34;robot-pos&#34;&gt;(0, 0)&lt;/span&gt;&lt;/p&gt;&#xA;            &lt;p&gt;&lt;strong&gt;Target Position:&lt;/strong&gt; &lt;span id=&#34;target-pos&#34;&gt;(0, 0)&lt;/span&gt;&lt;/p&gt;&#xA;            &lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; &lt;span id=&#34;robot-status&#34;&gt;Learning...&lt;/span&gt;&lt;/p&gt;&#xA;            &lt;button id=&#34;reset-button&#34;&gt;Reset Simulation&lt;/button&gt;&#xA;            &lt;button id=&#34;new-target-button&#34;&gt;New Target&lt;/button&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;canvas id=&#34;gameCanvas&#34;&gt;&lt;/canvas&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &lt;script src=&#34;script.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;</description>
     </item>
     <item>
+      <title>Classic Apple Catch Game</title>
+      <link>https://gopipm.github.io/projects/002-apple-catch/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/002-apple-catch/</guid>
+      <description>&lt;h3 id=&#34;a-fun-fast-paced-arcade-game&#34;&gt;&lt;strong&gt;A Fun, Fast-Paced Arcade Game&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;Get ready for some classic arcade fun with &amp;ldquo;Apple Catch&amp;rdquo;! This charming game challenges your reflexes with a simple, addictive goal: move the basket at the bottom of the screen to catch the red apples as they fall.&lt;/p&gt;&#xA;&lt;p&gt;The controls are intuitive – just move your mouse left and right to guide the basket. Each apple you successfully catch adds to your score, which is proudly displayed in the top-left corner. But be careful! The game ends the moment you miss an apple, resetting your score to zero. It&amp;rsquo;s a delightful test of focus and a perfect way to take a quick break.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Combinaisons</title>
       <link>https://gopipm.github.io/art/curved-art/config-2023-10-30-10-09-31-98qu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1394,11 +1401,25 @@
       <description>&lt;h3 id=&#34;a-global-greeting-card&#34;&gt;&lt;strong&gt;A Global Greeting Card&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.&lt;/p&gt;&#xA;&lt;p&gt;Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hello World in Many Languages</title>
+      <link>https://gopipm.github.io/projects/001-hello-world/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/001-hello-world/</guid>
+      <description>&lt;h3 id=&#34;a-global-greeting-card&#34;&gt;&lt;strong&gt;A Global Greeting Card&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This project is a simple yet elegant demonstration of one of the most fundamental concepts in programming and global communication: &amp;ldquo;Hello, World!&amp;rdquo;. Generated with the help of Gemini, this webpage presents the iconic greeting in a diverse array of world languages, from Spanish to Hindi to Japanese.&lt;/p&gt;&#xA;&lt;p&gt;Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It&amp;rsquo;s a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>hugo-theme-console</title>
       <link>https://gopipm.github.io/credits/hugo-theme-console/</link>
       <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
       <guid>https://gopipm.github.io/credits/hugo-theme-console/</guid>
       <description>&lt;p&gt;A minimal, responsive and light theme for Hugo inspired by Linux console.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true&#34; alt=&#34;Console&#34; class=&#34;img-responsive&#34;&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt; &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ mkdir themes&#xA;$ cd themes&#xA;$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;See the &lt;a href=&#34;https://gohugo.io/themes/installing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo documentation&lt;/a&gt;  for more information.&lt;/p&gt;&#xA;&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt; &lt;p&gt;Set theme parameter in your config file:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;theme = &amp;#34;hugo-theme-console&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt; &lt;p&gt;Copyright © 2020 &lt;a href=&#34;https://mrmierzejewski.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marcin Mierzejewski&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;The theme is released under the MIT License. Check the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original theme license&lt;/a&gt;  for additional licensing information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Self-Learning Robot</title>
+      <link>https://gopipm.github.io/projects/003-self-learning-robot/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/projects/003-self-learning-robot/</guid>
+      <description>&lt;h3 id=&#34;a-glimpse-into-machine-learning&#34;&gt;&lt;strong&gt;A Glimpse into Machine Learning&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This fascinating project provides an interactive window into the world of artificial intelligence, specifically &lt;strong&gt;reinforcement learning&lt;/strong&gt;. You are presented with a simple car (our &amp;ldquo;robot&amp;rdquo;) on a track. Its goal? To learn how to navigate the track on its own.&lt;/p&gt;&#xA;&lt;p&gt;By clicking &amp;ldquo;Train&amp;rdquo;, you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a &amp;ldquo;brain&amp;rdquo; or a policy that guides it toward successful navigation. Once trained, you can &amp;ldquo;Test&amp;rdquo; its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It&amp;rsquo;s a powerful, visual demonstration of how a machine can learn from experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction</title>
