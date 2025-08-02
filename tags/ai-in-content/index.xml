@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai-in-Content on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/tags/ai-in-content/</link>
+    <description>Recent content in Ai-in-Content on Gopi Palaniappan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gopipm.github.io/tags/ai-in-content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating My Blog: Using Gemini to Generate Hugo Posts</title>
+      <link>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</guid>
+      <description>&lt;h2 id=&#34;the-quest-for-an-automated-ghost-writer&#34;&gt;The Quest for an Automated Ghost Writer&lt;/h2&gt; &lt;p&gt;As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&amp;rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &amp;ldquo;ghost writer&amp;rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

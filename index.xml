@@ -225,6 +225,20 @@
       <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;title&gt;SVG Shapes&lt;/title&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;css/style.css&#34;&gt;&#xA;    &lt;script src=&#34;js/quicksettings.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;&#xA;    &lt;script src=&#34;js/settings.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;&#xA;    &lt;script src=&#34;js/utils.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;&#xA;    &lt;script src=&#34;js/jszip.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&lt;body&gt;&#xA;    &lt;script src=&#34;js/script.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;&#xA;&lt;/body&gt;&#xA;&#xA;&lt;/html&gt;</description>
     </item>
     <item>
+      <title>Attempting to Clone a Genetic Algorithm Car Simulation: A Tale of Python, AI, and JavaScript</title>
+      <link>https://gopipm.github.io/blog/converting-python-car-sim-to-html-js/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/converting-python-car-sim-to-html-js/</guid>
+      <description>&lt;h2 id=&#34;the-ambitious-goal-from-python-to-the-browser&#34;&gt;The Ambitious Goal: From Python to the Browser&lt;/h2&gt; &lt;p&gt;As a fun side project, I recently became fascinated with a car simulation that used a genetic algorithm to teach virtual cars how to navigate a track. The original implementation, which you can find on &lt;a href=&#34;https://github.com/giaco91/Car-Race---An-evolutionary-Game.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; , was written in Python, and I thought it would be a fantastic challenge to clone it for the web using HTML, JavaScript, and CSS. My plan was to leverage AI coding assistants to help with the heavy lifting of translating the Python logic into a functional browser-based experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automating My Blog: Using Gemini to Generate Hugo Posts</title>
+      <link>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</guid>
+      <description>&lt;h2 id=&#34;the-quest-for-an-automated-ghost-writer&#34;&gt;The Quest for an Automated Ghost Writer&lt;/h2&gt; &lt;p&gt;As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&amp;rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &amp;ldquo;ghost writer&amp;rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Classic Apple Catch Game</title>
       <link>https://gopipm.github.io/projects/002-apple-catch/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
@@ -1413,6 +1427,13 @@
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/credits/what-is-hugo/</guid>
       <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Crush: Effortless Multi-Model AI in the Terminal</title>
+      <link>https://gopipm.github.io/blog/coding-with-crush/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/coding-with-crush/</guid>
+      <description>&lt;p&gt;I spent some time today setting up and playing with a new tool, and I&amp;rsquo;m genuinely impressed. It&amp;rsquo;s called &lt;a href=&#34;https://github.com/charmbracelet/crush&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crush&lt;/a&gt; , a new command-line interface for interacting with large language models from the brilliant minds at Charm Bracelet. The experience was so smooth that I had to write about it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-beautiful-interface-for-all-the-models&#34;&gt;A Beautiful Interface for All the Models&lt;/h2&gt; &lt;p&gt;The first thing that strikes you about &lt;code&gt;crush&lt;/code&gt; is its beautiful, intuitive interface. It lives in your terminal but feels incredibly modern and responsive. Getting started was a breeze. I already had a Gemini API key, so I plugged that in to get access to &lt;strong&gt;Gemini 2.5 Pro&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robot Draw on HTML5 canvas</title>

@@ -8,11 +8,25 @@
     <language>en-us</language>
     <atom:link href="https://gopipm.github.io/tags/gemini-api/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Automating My Blog: Using Gemini to Generate Hugo Posts</title>
+      <link>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</guid>
+      <description>&lt;h2 id=&#34;the-quest-for-an-automated-ghost-writer&#34;&gt;The Quest for an Automated Ghost Writer&lt;/h2&gt; &lt;p&gt;As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&amp;rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &amp;ldquo;ghost writer&amp;rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Effortless Setup: Get Started with the Gemini CLI in Minutes</title>
       <link>https://gopipm.github.io/blog/geminicli/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/blog/geminicli/</guid>
       <description>&lt;p&gt;Getting started with new command-line tools can sometimes feel like a chore, but I was pleasantly surprised by how simple it was to set up the Gemini CLI. As an AI-powered assistant that runs directly in your terminal, it&amp;rsquo;s a game-changer for developers, and the setup process is just as streamlined. This post will walk you through the quick installation and initial configuration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt; &lt;p&gt;Before you start, you&amp;rsquo;ll need to have &lt;strong&gt;Node.js&lt;/strong&gt; installed on your system. The Gemini CLI requires version 18 or higher. You can verify your version by running &lt;code&gt;node -v&lt;/code&gt; in your terminal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Crush: Effortless Multi-Model AI in the Terminal</title>
+      <link>https://gopipm.github.io/blog/coding-with-crush/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/coding-with-crush/</guid>
+      <description>&lt;p&gt;I spent some time today setting up and playing with a new tool, and I&amp;rsquo;m genuinely impressed. It&amp;rsquo;s called &lt;a href=&#34;https://github.com/charmbracelet/crush&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crush&lt;/a&gt; , a new command-line interface for interacting with large language models from the brilliant minds at Charm Bracelet. The experience was so smooth that I had to write about it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-beautiful-interface-for-all-the-models&#34;&gt;A Beautiful Interface for All the Models&lt;/h2&gt; &lt;p&gt;The first thing that strikes you about &lt;code&gt;crush&lt;/code&gt; is its beautiful, intuitive interface. It lives in your terminal but feels incredibly modern and responsive. Getting started was a breeze. I already had a Gemini API key, so I plugged that in to get access to &lt;strong&gt;Gemini 2.5 Pro&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

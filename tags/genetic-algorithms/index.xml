@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genetic-Algorithms on Gopi Palaniappan</title>
+    <link>https://gopipm.github.io/tags/genetic-algorithms/</link>
+    <description>Recent content in Genetic-Algorithms on Gopi Palaniappan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gopipm.github.io/tags/genetic-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attempting to Clone a Genetic Algorithm Car Simulation: A Tale of Python, AI, and JavaScript</title>
+      <link>https://gopipm.github.io/blog/converting-python-car-sim-to-html-js/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/blog/converting-python-car-sim-to-html-js/</guid>
+      <description>&lt;h2 id=&#34;the-ambitious-goal-from-python-to-the-browser&#34;&gt;The Ambitious Goal: From Python to the Browser&lt;/h2&gt; &lt;p&gt;As a fun side project, I recently became fascinated with a car simulation that used a genetic algorithm to teach virtual cars how to navigate a track. The original implementation, which you can find on &lt;a href=&#34;https://github.com/giaco91/Car-Race---An-evolutionary-Game.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; , was written in Python, and I thought it would be a fantastic challenge to clone it for the web using HTML, JavaScript, and CSS. My plan was to leverage AI coding assistants to help with the heavy lifting of translating the Python logic into a functional browser-based experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

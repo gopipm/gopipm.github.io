@@ -17,8 +17,15 @@
     <item>
       <title>Ai</title>
       <link>https://gopipm.github.io/tags/ai/</link>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Assisted-Coding</title>
+      <link>https://gopipm.github.io/tags/ai-assisted-coding/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/ai-assisted-coding/</guid>
       <description></description>
     </item>
     <item>
@@ -26,6 +33,13 @@
       <link>https://gopipm.github.io/tags/ai-development/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/ai-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-in-Content</title>
+      <link>https://gopipm.github.io/tags/ai-in-content/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/ai-in-content/</guid>
       <description></description>
     </item>
     <item>
@@ -40,6 +54,13 @@
       <link>https://gopipm.github.io/tags/art/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://gopipm.github.io/tags/automation/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/automation/</guid>
       <description></description>
     </item>
     <item>
@@ -78,6 +99,13 @@
       <description></description>
     </item>
     <item>
+      <title>Crush</title>
+      <link>https://gopipm.github.io/tags/crush/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/crush/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Css</title>
       <link>https://gopipm.github.io/tags/css/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
@@ -110,6 +138,13 @@
       <link>https://gopipm.github.io/tags/gemini-api/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/gemini-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genetic-Algorithms</title>
+      <link>https://gopipm.github.io/tags/genetic-algorithms/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/genetic-algorithms/</guid>
       <description></description>
     </item>
     <item>
@@ -148,9 +183,16 @@
       <description></description>
     </item>
     <item>
+      <title>Hugo-Cms</title>
+      <link>https://gopipm.github.io/tags/hugo-cms/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/hugo-cms/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Javascript</title>
       <link>https://gopipm.github.io/tags/javascript/</link>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/javascript/</guid>
       <description></description>
     </item>
@@ -166,6 +208,13 @@
       <link>https://gopipm.github.io/tags/multilingual/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/multilingual/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openrouter</title>
+      <link>https://gopipm.github.io/tags/openrouter/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/openrouter/</guid>
       <description></description>
     </item>
     <item>
@@ -208,6 +257,13 @@
       <link>https://gopipm.github.io/tags/projects/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://gopipm.github.io/tags/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://gopipm.github.io/tags/python/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -260,10 +316,24 @@
       <description></description>
     </item>
     <item>
+      <title>Technical-Writing</title>
+      <link>https://gopipm.github.io/tags/technical-writing/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/technical-writing/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Thanks</title>
       <link>https://gopipm.github.io/tags/thanks/</link>
       <pubDate>Wed, 11 Oct 2023 21:50:48 -0700</pubDate>
       <guid>https://gopipm.github.io/tags/thanks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Simulation</title>
+      <link>https://gopipm.github.io/tags/web-simulation/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gopipm.github.io/tags/web-simulation/</guid>
       <description></description>
     </item>
   </channel>

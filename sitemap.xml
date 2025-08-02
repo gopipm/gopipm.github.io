@@ -213,7 +213,7 @@
         
         <url>
             <loc>https://gopipm.github.io/tags/ai/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -226,7 +226,21 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/ai-assisted-coding/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/ai-development/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/ai-in-content/</loc>
             <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
@@ -256,6 +270,27 @@
         <url>
             <loc>https://gopipm.github.io/tags/art/</loc>
             <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/converting-python-car-sim-to-html-js/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/hugo-blog-post-creator-gems/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/automation/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1323,6 +1358,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/crush/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/css/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
         </url>
@@ -1400,6 +1442,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/genetic-algorithms/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/tags/google/</loc>
             <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
@@ -1456,6 +1505,13 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/tags/hugo-cms/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/credits/hugo-theme-console/</loc>
             <lastmod>2016-11-05T21:05:33+05:30</lastmod>
         </url>
@@ -1478,7 +1534,7 @@
         
         <url>
             <loc>https://gopipm.github.io/tags/javascript/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1493,6 +1549,20 @@
         <url>
             <loc>https://gopipm.github.io/tags/multilingual/</loc>
             <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/blog/coding-with-crush/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/openrouter/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1569,7 +1639,7 @@
         
         <url>
             <loc>https://gopipm.github.io/categories/projects/</loc>
-            <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1584,6 +1654,13 @@
         <url>
             <loc>https://gopipm.github.io/tags/projects/</loc>
             <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/python/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
     
@@ -1713,6 +1790,20 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/categories/tech-deep-dive/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/technical-writing/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/categories/thanks/</loc>
             <lastmod>2023-10-11T21:50:48-07:00</lastmod>
         </url>
@@ -1727,7 +1818,21 @@
     
         
         <url>
+            <loc>https://gopipm.github.io/categories/tools/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://gopipm.github.io/categories/tutorials/</loc>
+            <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gopipm.github.io/tags/web-simulation/</loc>
             <lastmod>2025-08-02T00:00:00+00:00</lastmod>
         </url>
         
