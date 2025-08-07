@@ -11,7 +11,7 @@ Get ready for some classic arcade fun with "Apple Catch"\! This charming game ch
 
 The controls are intuitive – just move your mouse left and right to guide the basket. Each apple you successfully catch adds to your score, which is proudly displayed in the top-left corner. But be careful\! The game ends the moment you miss an apple, resetting your score to zero. It's a delightful test of focus and a perfect way to take a quick break.
 
-**Project Link:** [Play Apple Catch Here](https://gopipm.github.io/apps/002-apple-catch/)
+**Project Link:** [Play Apple Catch Here](/apps/002-apple-catch/)
 
 ### **Technologies Used**
 

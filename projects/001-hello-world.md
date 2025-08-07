@@ -11,7 +11,7 @@ This project is a simple yet elegant demonstration of one of the most fundamenta
 
 Each greeting is displayed on its own clean, well-defined card, making for a pleasant and easy-to-read layout. It's a fantastic visual representation of how the same simple idea can be expressed across different cultures and scripts. The project serves as a perfect starting point for exploring web typography and internationalization (i18n).
 
-**Project Link:** [View the "Hello World" Page](https://gopipm.github.io/apps/001-hello-world/)
+**Project Link:** [View the "Hello World" Page](/apps/001-hello-world/)
 
 ### **Technologies Used**
 

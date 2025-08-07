@@ -11,7 +11,7 @@ This fascinating project provides an interactive window into the world of artifi
 
 By clicking "Train", you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a "brain" or a policy that guides it toward successful navigation. Once trained, you can "Test" its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It's a powerful, visual demonstration of how a machine can learn from experience.
 
-**Project Link:** [Experiment with the Self-Learning Robot](https://gopipm.github.io/apps/003-self-learning-robot/)
+**Project Link:** [Experiment with the Self-Learning Robot](/apps/003-self-learning-robot/)
 
 ### **Technologies Used**
 
