@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apps on Gopi Palaniappan</title><link>https://gopipm.github.io/apps/</link><description>Recent content in Apps on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/apps/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://gopipm.github.io/apps/001-hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/apps/001-hello-world/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>Hello World - Multilingual&lt;/title>
+ &lt;style>
+ /* Import Google Fonts directly into CSS for consistent styling */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono&amp;display=swap'); /* Added for generated text */
+
+
+ body {
+ display: flex;
+ flex-direction: column; /* Changed to column to stack elements vertically */
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ margin: 0;
+ font-family: 'Roboto', Arial, sans-serif; /* Default fallback font */
+ background-color: #f0f0f0;
+ color: #333;
+ text-align: center;
+ }
+
+ .container {
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-bottom: 20px; /* Space between container and message box */
+ max-width: 90%; /* Ensure responsiveness */
+ width: 500px; /* Max width for larger screens */
+ }
+
+ #hello-world-text {
+ font-size: 3em; /* Basic font sizing */
+ margin-bottom: 30px;
+ transition: font-family 0.5s ease-in-out; /* Smooth transition for font changes */
+ word-wrap: break-word; /* Prevent overflow for long greetings */
+ }
+
+ .button-group {
+ display: flex;
+ flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+ justify-content: center;
+ gap: 15px; /* Space between buttons */
+ margin-top: 20px;
+ }
+
+ #refresh-button, #generate-button {
+ padding: 12px 25px;
+ font-size: 1.1em;
+ cursor: pointer;
+ color: white;
+ border: none;
+ border-radius: 8px;
+ transition: background-color 0.3s ease, transform 0.1s ease;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ #refresh-button {
+ background-color: #007bff;
+ }
+
+ #generate-button {
+ background-color: #28a745; /* A pleasant green for the new feature */
+ }
+
+ #refresh-button:hover {
+ background-color: #0056b3;
+ transform: translateY(-2px);
+ }
+
+ #generate-button:hover {
+ background-color: #218838;
+ transform: translateY(-2px);
+ }
+
+ #loading-indicator {
+ display: none; /* Hidden by default */
+ margin-top: 15px;
+ font-size: 1em;
+ color: #555;
+ }
+
+ .message-box {
+ display: none; /* Hidden by default */
+ background-color: #e7f3ff;
+ border: 1px solid #cce5ff;
+ border-radius: 8px;
+ padding: 15px;
+ margin-top: 20px;
+ max-width: 90%;
+ width: 500px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+ font-size: 0.9em;
+ color: #004085;
+ text-align: left;
+ }
+
+ .message-box p {
+ margin: 0 0 5px 0;
+ }
+
+ .message-box strong {
+ color: #002752;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body>
+ &lt;div class="container">
+ &lt;h1 id="hello-world-text">Hello World!&lt;/h1>
+ &lt;div class="button-group">
+ &lt;button id="refresh-button">I feel lucky!&lt;/button>
+ &lt;button id="generate-button">✨ Creative Greeting ✨&lt;/button>
+ &lt;/div>
+ &lt;div id="loading-indicator">Generating...&lt;/div>
+ &lt;/div>
+ &lt;div id="message-box" class="message-box">&lt;/div>
+
+ &lt;script>
+ document.addEventListener('DOMContentLoaded', () => {
+ const helloWorldText = document.getElementById('hello-world-text');
+ const refreshButton = document.getElementById('refresh-button');
+ const generateButton = document.getElementById('generate-button');
+ const loadingIndicator = document.getElementById('loading-indicator');
+ const messageBox = document.getElementById('message-box');
+
+ const translations = [
+ { lang: 'English', text: 'Hello World!' },
+ { lang: 'Spanish', text: '¡Hola Mundo!' },
+ { lang: 'French', text: 'Bonjour le monde !' },
+ { lang: 'German', text: 'Hallo Welt!' },
+ { lang: 'Japanese', text: 'こんにちは世界！' },
+ { lang: 'Chinese', text: '你好世界！' },
+ { lang: 'Hindi', text: 'नमस्ते दुनिया!' },
+ { lang: 'Arabic', text: 'مرحبا بالعالم!' },
+ { lang: 'Russian', text: 'Привет, мир!' },
+ { lang: 'Portuguese', text: 'Olá Mundo!' }
+ ];
+
+ // Selected diverse Google Fonts. These are pre-imported in the style section.
+ const googleFonts = [
+ 'Roboto',
+ 'Open Sans',
+ 'Lato',
+ 'Montserrat',
+ 'Oswald',
+ 'Playfair Display',
+ 'Merriweather',
+ 'Indie Flower',
+ 'Pacifico',
+ 'Press Start 2P',
+ 'Space Mono' // Added for generated text
+ ];
+
+ function showMessage(type, message) {
+ messageBox.textContent = ''; // Clear previous message
+ messageBox.style.display = 'block';
+ const p = document.createElement('p');
+ p.textContent = message;
+ messageBox.appendChild(p);
+
+ // Optional: add type-specific styling
+ if (type === 'error') {
+ messageBox.style.backgroundColor = '#f8d7da';
+ messageBox.style.borderColor = '#f5c6cb';
+ messageBox.style.color = '#721c24';
+ } else {
+ messageBox.style.backgroundColor = '#e7f3ff';
+ messageBox.style.borderColor = '#cce5ff';
+ messageBox.style.color = '#004085';
+ }
+ }
+
+ function hideMessage() {
+ messageBox.style.display = 'none';
+ }
+
+ function updateHelloWorld() {
+ hideMessage(); // Hide any previous messages
+ const randomTranslation = translations[Math.floor(Math.random() * translations.length)];
+ const randomFont = googleFonts[Math.floor(Math.random() * googleFonts.length)];
+
+ helloWorldText.textContent = randomTranslation.text;
+ // Apply the font family with fallback to sans-serif
+ helloWorldText.style.fontFamily = `'${randomFont}', sans-serif`;
+ }
+
+ // Function to generate a creative greeting using Gemini API
+ async function generateCreativeGreeting() {
+ loadingIndicator.style.display = 'block'; // Show loading
+ generateButton.disabled = true; // Disable button during generation
+ refreshButton.disabled = true; // Also disable refresh button
+ hideMessage(); // Hide any previous messages
+
+ const prompt = "Generate a 'Hello World' greeting in a unique, imaginative, or obscure linguistic style. Also, provide a very brief (1-2 sentences) creative description of this 'language' and its origin. Format your response as follows: Greeting: [The greeting]\nLanguage/Origin: [The description]";
+
+ let chatHistory = [];
+ chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+ const payload = { contents: chatHistory };
+ const apiKey = ""; // Canvas will automatically provide this at runtime for gemini-2.0-flash
+ const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+ try {
+ const response = await fetch(apiUrl, {
+ method: 'POST',
+ headers: { 'Content-Type': 'application/json' },
+ body: JSON.stringify(payload)
+ });
+
+ const result = await response.json();
+
+ if (result.candidates &amp;&amp; result.candidates.length > 0 &amp;&amp;
+ result.candidates[0].content &amp;&amp; result.candidates[0].content.parts &amp;&amp;
+ result.candidates[0].content.parts.length > 0) {
+ const generatedText = result.candidates[0].content.parts[0].text;
+ const lines = generatedText.split('\n');
+ let greeting = 'Error generating greeting.';
+ let origin = 'No origin provided.';
+
+ if (lines.length >= 2) {
+ const greetingLine = lines.find(line => line.startsWith('Greeting:'));
+ const originLine = lines.find(line => line.startsWith('Language/Origin:'));
+
+ if (greetingLine) {
+ greeting = greetingLine.substring('Greeting:'.length).trim();
+ }
+ if (originLine) {
+ origin = originLine.substring('Language/Origin:'.length).trim();
+ }
+ } else {
+ // Fallback if the format isn't strictly followed, try to use the whole response
+ greeting = generatedText;
+ }
+
+ helloWorldText.textContent = greeting;
+ // Use a distinct font for generated text for visual differentiation
+ helloWorldText.style.fontFamily = `'Space Mono', monospace`;
+ showMessage('info', `Origin: ${origin}`); // Display the origin in the message box
+
+ } else {
+ showMessage('error', 'Failed to get a valid response from the LLM. Please try again.');
+ console.error('LLM response structure unexpected:', result);
+ }
+ } catch (error) {
+ showMessage('error', `An error occurred: ${error.message}. Please try again.`);
+ console.error('Error calling Gemini API:', error);
+ } finally {
+ loadingIndicator.style.display = 'none'; // Hide loading
+ generateButton.disabled = false; // Re-enable button
+ refreshButton.disabled = false; // Re-enable refresh button
+ }
+ }
+
+ // Initial load
+ updateHelloWorld();
+
+ // Attach to button click event
+ refreshButton.addEventListener('click', updateHelloWorld);
+ generateButton.addEventListener('click', generateCreativeGreeting);
+ });
+ &lt;/script>
+&lt;/body>
+&lt;/html></description></item><item><title/><link>https://gopipm.github.io/apps/002-apple-catch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/apps/002-apple-catch/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+ &lt;title>Apple Catch&lt;/title>
+ &lt;script src="https://cdn.tailwindcss.com">&lt;/script>
+ &lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet">
+ &lt;style>
+ body {
+ font-family: 'Poppins', sans-serif;
+ touch-action: none; /* Prevents scrolling on touch devices */
+ }
+ canvas {
+ background: linear-gradient(to bottom, #87CEEB, #98FB98); /* Sky to grass gradient */
+ border-radius: 0.75rem;
+ cursor: none; /* Hide the cursor over the game canvas */
+ }
+ .info-box {
+ background-color: rgba(255, 255, 255, 0.8);
+ backdrop-filter: blur(5px);
+ }
+ /* Simple loader animation */
+ @keyframes spin {
+ to { transform: rotate(360deg); }
+ }
+ .loader {
+ border: 4px solid rgba(0, 0, 0, 0.1);
+ border-left-color: #4ade80; /* green-400 */
+ border-radius: 50%;
+ width: 24px;
+ height: 24px;
+ animation: spin 1s linear infinite;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body class="bg-gray-200 flex flex-col items-center justify-center min-h-screen p-4">
+
+ &lt;div class="w-full max-w-2xl mx-auto">
+ &lt;!-- Game Title -->
+ &lt;h1 class="text-4xl font-bold text-center text-red-600 mb-4">Apple Catch&lt;/h1>
+
+ &lt;!-- Game Info: Score and Lives -->
+ &lt;div class="flex justify-between mb-4 text-lg font-semibold text-gray-700">
+ &lt;div id="score-box" class="info-box p-3 rounded-lg shadow-md">Score: &lt;span id="score">0&lt;/span>&lt;/div>
+ &lt;div id="lives-box" class="info-box p-3 rounded-lg shadow-md">Lives: &lt;span id="lives">5&lt;/span>&lt;/div>
+ &lt;/div>
+
+ &lt;!-- Game Canvas -->
+ &lt;canvas id="gameCanvas">&lt;/canvas>
+
+ &lt;!-- Start Screen Modal -->
+ &lt;div id="startScreen" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-20">
+ &lt;div class="bg-white p-8 rounded-2xl shadow-2xl text-center transform transition-all scale-100 max-w-sm w-full">
+ &lt;h2 class="text-3xl font-bold text-green-700 mb-4">Welcome to Apple Catch!&lt;/h2>
+ &lt;p class="text-lg text-gray-700 mb-6">Catch all the falling apples with your basket.&lt;/p></description></item><item><title/><link>https://gopipm.github.io/apps/003-self-learning-robot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/apps/003-self-learning-robot/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>Self Learning Robot&lt;/title>
+ &lt;link rel="stylesheet" href="style.css">
+&lt;/head>
+&lt;body>
+ &lt;div class="container">
+ &lt;h1>Self Learning Robot Simulation&lt;/h1>
+ &lt;div class="info-panel">
+ &lt;p>&lt;strong>Robot Position:&lt;/strong> &lt;span id="robot-pos">(0, 0)&lt;/span>&lt;/p>
+ &lt;p>&lt;strong>Target Position:&lt;/strong> &lt;span id="target-pos">(0, 0)&lt;/span>&lt;/p>
+ &lt;p>&lt;strong>Status:&lt;/strong> &lt;span id="robot-status">Learning...&lt;/span>&lt;/p>
+ &lt;button id="reset-button">Reset Simulation&lt;/button>
+ &lt;button id="new-target-button">New Target&lt;/button>
+ &lt;/div>
+ &lt;canvas id="gameCanvas">&lt;/canvas>
+ &lt;/div>
+
+ &lt;script src="script.js">&lt;/script>
+&lt;/body>
+&lt;/html></description></item></channel></rss>

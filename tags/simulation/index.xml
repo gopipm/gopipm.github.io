@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Simulation on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/simulation/</link>
-    <description>Recent content in Simulation on Gopi Palaniappan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://gopipm.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Interactive Self-Learning Robot</title>
-      <link>https://gopipm.github.io/projects/003-self-learning-robot/</link>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://gopipm.github.io/projects/003-self-learning-robot/</guid>
-      <description>&lt;h3 id=&#34;a-glimpse-into-machine-learning&#34;&gt;&lt;strong&gt;A Glimpse into Machine Learning&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This fascinating project provides an interactive window into the world of artificial intelligence, specifically &lt;strong&gt;reinforcement learning&lt;/strong&gt;. You are presented with a simple car (our &amp;ldquo;robot&amp;rdquo;) on a track. Its goal? To learn how to navigate the track on its own.&lt;/p&gt;&#xA;&lt;p&gt;By clicking &amp;ldquo;Train&amp;rdquo;, you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a &amp;ldquo;brain&amp;rdquo; or a policy that guides it toward successful navigation. Once trained, you can &amp;ldquo;Test&amp;rdquo; its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It&amp;rsquo;s a powerful, visual demonstration of how a machine can learn from experience.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simulation on Gopi Palaniappan</title><link>https://gopipm.github.io/tags/simulation/</link><description>Recent content in Simulation on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml"/><item><title>Interactive Self-Learning Robot</title><link>https://gopipm.github.io/projects/003-self-learning-robot/</link><pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/projects/003-self-learning-robot/</guid><description>&lt;h3 id="a-glimpse-into-machine-learning">&lt;strong>A Glimpse into Machine Learning&lt;/strong>&lt;/h3> &lt;p>This fascinating project provides an interactive window into the world of artificial intelligence, specifically &lt;strong>reinforcement learning&lt;/strong>. You are presented with a simple car (our &amp;ldquo;robot&amp;rdquo;) on a track. Its goal? To learn how to navigate the track on its own.&lt;/p>
+&lt;p>By clicking &amp;ldquo;Train&amp;rdquo;, you can watch as the robot begins its learning process through trial and error. It explores the environment, occasionally making mistakes, but gradually building a &amp;ldquo;brain&amp;rdquo; or a policy that guides it toward successful navigation. Once trained, you can &amp;ldquo;Test&amp;rdquo; its knowledge and watch it drive flawlessly. The simulation even allows you to save this learned model, demonstrating the concept of persisting a trained AI. It&amp;rsquo;s a powerful, visual demonstration of how a machine can learn from experience.&lt;/p></description></item></channel></rss>

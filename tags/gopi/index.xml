@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gopi on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/gopi/</link>
-    <description>Recent content in Gopi on Gopi Palaniappan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://gopipm.github.io/tags/gopi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://gopipm.github.io/about/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://gopipm.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;gopi-palaniappan---exploring-innovation&#34;&gt;Gopi Palaniappan - Exploring Innovation&lt;/h1&gt; &lt;p&gt;Welcome to my personal website! I&amp;rsquo;m Gopi Palaniappan, a Technical Program Manager at Google Inc. My career journey has been a fusion of innovation and creativity. Here&amp;rsquo;s a glimpse of my exciting path.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-google-voyage&#34;&gt;The Google Voyage&lt;/h2&gt; &lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Android XR Platform:&lt;/strong&gt; At Google, I&amp;rsquo;ve been at the forefront of the Android XR platform, driving next-gen headset development. I&amp;rsquo;ve specialized in system software, perception platform, and power and performance optimization.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gopi on Gopi Palaniappan</title><link>https://gopipm.github.io/tags/gopi/</link><description>Recent content in Gopi on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/tags/gopi/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://gopipm.github.io/about/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/about/</guid><description>&lt;h1 id="gopi-palaniappan---exploring-innovation">Gopi Palaniappan - Exploring Innovation&lt;/h1> &lt;p>Welcome to my personal website! I&amp;rsquo;m Gopi Palaniappan, a Technical Program Manager at Google Inc. My career journey has been a fusion of innovation and creativity. Here&amp;rsquo;s a glimpse of my exciting path.&lt;/p>
+&lt;h2 id="the-google-voyage">The Google Voyage&lt;/h2> &lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Android XR Platform:&lt;/strong> At Google, I&amp;rsquo;ve been at the forefront of the Android XR platform, driving next-gen headset development. I&amp;rsquo;ve specialized in system software, perception platform, and power and performance optimization.&lt;/p></description></item></channel></rss>

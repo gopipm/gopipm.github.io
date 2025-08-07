@@ -1,172 +1,33 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gopi Palaniappan/blog/hugo-blog-post-creator-gems/</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <link rel="stylesheet" href="https://gopipm.github.io/hugo-theme-console/css/terminal-0.7.4.min.css">
-    <link rel="stylesheet" href="https://gopipm.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
-    <link rel="stylesheet" href="https://gopipm.github.io/hugo-theme-console/css/console.css">
-    
-      <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-       <meta property="og:title" content="Automating My Blog: Using Gemini to Generate Hugo Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://gopipm.github.io/blog/hugo-blog-post-creator-gems/" /><meta property="article:published_time" content="2025-08-02T00:00:00+00:00" />
-
-
-
-<meta name="twitter:title" content="Automating My Blog: Using Gemini to Generate Hugo Posts"/>
-<meta name="twitter:description" content="The Quest for an Automated Ghost Writer As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &ldquo;ghost writer&rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!"/>
-
-<style>
-.github - corner: hover.octo - arm {
-    animation: octocat - wave 560 ms ease - in -out
-}
-
-@keyframes octocat - wave {
-
-    0 %,
-    100 % {
-        transform: rotate(0)
-    }
-
-    20 %,
-    60 % {
-        transform: rotate(-25 deg)
-    }
-
-    40 %,
-    80 % {
-        transform: rotate(10 deg)
-    }
-}
-
-@media(max - width: 500 px) {
-    .github - corner: hover.octo - arm {
-        animation: none
-    }
-
-    .github - corner.octo - arm {
-        animation: octocat - wave 560 ms ease - in -out
-    }
-}
-</style>
-</head>
-<body class="terminal">
-        
-<a href="https://github.com/gopipm/gopipm.github.io/edit/main/blog/hugo-blog-post-creator-gems.md" class="github-corner" aria-label="View source on GitHub">
-    <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-    </svg></a>
-
-
-    <div class="container">
-        <div class="terminal-nav">
-          <header class="terminal-logo">
-            <div class="logo terminal-prompt">
-              
-              
-              <a href="https://gopipm.github.io/" class="no-style site-name">Gopi Palaniappan</a>:~# 
-              <a href='https://gopipm.github.io/blog'>blog</a>/<a href='https://gopipm.github.io/blog/hugo-blog-post-creator-gems'>hugo-blog-post-creator-gems</a>/</div></header>
-          <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="https://gopipm.github.io/blog/">
-                    <span property="name">blog/</span></a>
-                    <meta property="position" content="1" />
-                </li>
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="https://gopipm.github.io/art/">
-                    <span property="name">art/</span></a>
-                    <meta property="position" content="2" />
-                </li>
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="https://gopipm.github.io/robots/">
-                    <span property="name">robots/</span></a>
-                    <meta property="position" content="3" />
-                </li>
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="https://gopipm.github.io/projects/">
-                    <span property="name">projects/</span></a>
-                    <meta property="position" content="4" />
-                </li>
-                
-            </ul>
-          </nav>
-        </div>
-    </div>
-
-    <div class="container animated zoomIn fast" >
-        
-<h1>Automating My Blog: Using Gemini to Generate Hugo Posts</h1>
-<h2 id="the-quest-for-an-automated-ghost-writer">The Quest for an Automated Ghost Writer</h2> <p>As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &ldquo;ghost writer&rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!</p>
-<p>This post will walk you through how I&rsquo;ve set up this initial phase and, more importantly, outline the next steps to evolve this tool into a truly hands-off content engine.</p>
-<h2 id="how-the-gemini-powered-hugo-generator-works">How the Gemini-Powered Hugo Generator Works</h2> <p>[cite_start]The core of this system is surprisingly straightforward, leveraging the power of a well-defined prompt and the advanced capabilities of Google&rsquo;s Gemini. [cite: 1, 2] The process doesn&rsquo;t require complex code (yet!), but rather a very specific set of instructions that I&rsquo;ve refined to produce consistent, high-quality output.</p>
-<p>The magic lies in the prompt engineering. I&rsquo;ve instructed Gemini to act as an expert technical writer specializing in Hugo. The prompt contains strict rules for the output format, which must be a complete Markdown file.</p>
-<p>Here’s a breakdown of the required structure:</p>
-<ol>
-<li>[cite_start]<strong>Hugo Front Matter:</strong> The response must start immediately with TOML front matter, enclosed in <code>+++</code>. [cite: 5] [cite_start]This metadata block includes a title, date, a list of relevant tags, and categories, which are essential for how Hugo organizes and builds the site. [cite: 4, 7]</li>
-<li>[cite_start]<strong>Markdown Content:</strong> Following the front matter, the actual post content is generated in standard Markdown. [cite: 6] [cite_start]This includes a captivating introduction, a well-structured body with headings (<code>##</code>, <code>###</code>), and code blocks where necessary. [cite: 12, 13]</li>
-</ol>
-<p>By providing a simple topic—in this case, the very blog post you are reading—Gemini can construct the entire file.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Conceptual command to generate a post</span>
-</span></span><span style="display:flex;"><span>gemini --prompt <span style="color:#e6db74">&#34;Create a blog post about how I used Gemini to generate Hugo posts and what my next steps are for building a ghost writer.&#34;</span> &gt; new-post.md
-</span></span></code></pre></div><h2 id="next-steps-building-a-true-ghost-writer">Next Steps: Building a True &ldquo;Ghost Writer&rdquo;</h2> <p>Setting up this generator is a fantastic proof-of-concept, but it&rsquo;s just the beginning. To realize the vision of an autonomous ghost writer, several key components need to be built and integrated. Here is my roadmap:</p>
-<h3 id="1-full-pipeline-automation">1. Full Pipeline Automation</h3> <p>The current process is manual; I provide a prompt and save the output. The next phase is to automate this entire workflow. This involves creating a script that can:</p>
-<ul>
-<li><strong>Generate an Idea:</strong> Programmatically select a topic from a predefined list or even use another AI call to brainstorm new topics based on my areas of interest (AI, Robotics, Project Management).</li>
-<li><strong>Invoke the Gemini API:</strong> Send the chosen topic to the Gemini API with the specialized Hugo-generation prompt.</li>
-<li><strong>Commit to GitHub:</strong> Take the returned Markdown file and automatically commit it to the <code>content/posts</code> directory of my Hugo website&rsquo;s GitHub repository. This will trigger my site&rsquo;s continuous deployment pipeline (e.g., via Netlify or Vercel) to build and publish the new post.</li>
-</ul>
-<h3 id="2-scheduled-content-creation">2. Scheduled Content Creation</h3> <p>To ensure a regular flow of content, I plan to run this automation script on a schedule. A <strong>cron job</strong> running on a small server or a <strong>serverless function</strong> (like Google Cloud Functions or AWS Lambda) would be perfect for this. I could, for example, configure it to generate and publish a new blog post every Monday morning.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Conceptual serverless function
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">GeminiServiceClient</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;@google-ai/generativelanguage&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">Octokit</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;@octokit/rest&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">createBlogPost</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 1. Get a new blog post topic
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">topic</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A deep dive into ROS 2 for hobbyist robotics.&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 2. Call Gemini API to generate the post content
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">geminiClient</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">GeminiServiceClient</span>();
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hugoPostContent</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">geminiClient</span>.<span style="color:#a6e22e">generateText</span>(<span style="color:#75715e">/*...params*/</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 3. Use Octokit to commit the file to GitHub
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">octokit</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Octokit</span>({ <span style="color:#a6e22e">auth</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">GITHUB_TOKEN</span> });
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">octokit</span>.<span style="color:#a6e22e">repos</span>.<span style="color:#a6e22e">createOrUpdateFileContents</span>({
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">owner</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;MyGitHubUsername&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">repo</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;my-hugo-blog&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">path</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`content/posts/</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">new</span> Date().<span style="color:#a6e22e">toISOString</span>().<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#39;T&#39;</span>)[<span style="color:#ae81ff">0</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">-new-post.md`</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">message</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Automated Blog Post: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">topic</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">content</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Buffer</span>.<span style="color:#a6e22e">from</span>(<span style="color:#a6e22e">hugoPostContent</span>).<span style="color:#a6e22e">toString</span>(<span style="color:#e6db74">&#39;base64&#39;</span>),
-</span></span><span style="display:flex;"><span>  });
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">status</span>(<span style="color:#ae81ff">200</span>).<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;New blog post created successfully!&#34;</span>);
-</span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><h3 id="3-personalization-and-style-fine-tuning">3. Personalization and Style Fine-Tuning</h3> <p>While the current output is excellent, a future goal is to fine-tune a model on my existing writings. By providing a dataset of my previous blog posts, articles, and even technical documents, I could train the AI to more closely mimic my specific voice, tone, and stylistic nuances. This would move the system from a &ldquo;generic technical writer&rdquo; to a true digital extension of myself.</p>
-<h2 id="conclusion">Conclusion</h2> <p>This project represents a powerful first step towards leveraging AI for automating personal content creation. [cite_start]By combining the static site generation capabilities of Hugo with the advanced generative power of Gemini, I&rsquo;ve created a tool that significantly streamlines my blogging process. [cite: 1, 2] The path is now clear to evolve this into a fully autonomous &ldquo;ghost writer,&rdquo; a system that can ideate, write, and publish on my behalf, keeping my blog populated with fresh, relevant content. The future of personalized content creation is here, and I&rsquo;m excited to build it.</p>
-
-
-        <div class="footer">
-    <p>&copy; Gopi Palaniappan. Powered by
-        <a href=https://gohugo.io/>Hugo</a>. <a href="credits/">Credits.</a><a href="/tags/">Tags.</a>
-    </p>
-</div>
-
-    </div>
-  </body>
-</html>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Gopi Palaniappan/blog/hugo-blog-post-creator-gems/</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="all,follow"><meta name=googlebot content="index,follow,snippet,archive"><link rel=stylesheet href=https://gopipm.github.io/hugo-theme-console/css/terminal-0.7.4.min.css><link rel=stylesheet href=https://gopipm.github.io/hugo-theme-console/css/animate-4.1.1.min.css><link rel=stylesheet href=https://gopipm.github.io/hugo-theme-console/css/console.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script><script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><meta property="og:title" content="Automating My Blog: Using Gemini to Generate Hugo Posts"><meta property="og:description" content><meta property="og:type" content="article"><meta property="og:url" content="https://gopipm.github.io/blog/hugo-blog-post-creator-gems/"><meta property="article:published_time" content="2025-08-02T00:00:00+00:00"><meta name=twitter:title content="Automating My Blog: Using Gemini to Generate Hugo Posts"><meta name=twitter:description content="The Quest for an Automated Ghost Writer As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &ldquo;ghost writer&rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!"><style>.github - corner: hover.octo - arm{animation:octocat - wave 560 ms ease - in -out}@keyframes octocat - wave{0 %,100 %{transform:rotate(0)}20 %,60 %{transform:rotate(-25 deg)}40 %,80 %{transform:rotate(10 deg)}}@media(max - width:500 px){.github - corner: hover.octo - arm{animation:none}.github - corner.octo - arm{animation:octocat - wave 560 ms ease - in -out}}</style></head><body class=terminal><a href=https://github.com/gopipm/gopipm.github.io/edit/main/blog/hugo-blog-post-creator-gems.md class=github-corner aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70b7fd;color:#fff;position:absolute;top:0;border:0;right:0" aria-hidden="true"><path d="M0 0 115 115h15l12 27L250 250V0z"/><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentColor" style="transform-origin:130px 106px" class="octo-arm"/><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4l13.9-13.8C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8z" fill="currentColor" class="octo-body"/></svg></a><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=https://gopipm.github.io/ class="no-style site-name">Gopi Palaniappan</a>:~#
+<a href=https://gopipm.github.io/blog>blog</a>/<a href=https://gopipm.github.io/blog/hugo-blog-post-creator-gems>hugo-blog-post-creator-gems</a>/</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://gopipm.github.io/blog/><span property="name">blog/</span></a>
+<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://gopipm.github.io/art/><span property="name">art/</span></a>
+<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://gopipm.github.io/robots/><span property="name">robots/</span></a>
+<meta property="position" content="3"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://gopipm.github.io/projects/><span property="name">projects/</span></a>
+<meta property="position" content="4"></li></ul></nav></div></div><div class="container animated zoomIn fast"><h1>Automating My Blog: Using Gemini to Generate Hugo Posts</h1><h2 id=the-quest-for-an-automated-ghost-writer>The Quest for an Automated Ghost Writer</h2><p>As a Technical Program Manager at Google with a deep passion for technology that stretches back to my first ZX Spectrum, I&rsquo;m always looking for ways to blend my professional skills with my personal projects. My latest endeavor? Automating my Hugo-based blog. The ultimate goal is to create a fully autonomous &ldquo;ghost writer&rdquo; that can generate and publish content regularly. The first major step in this journey has been successfully setting up a workflow using Gemini to generate complete, formatted blog posts, just like this one!</p><p>This post will walk you through how I&rsquo;ve set up this initial phase and, more importantly, outline the next steps to evolve this tool into a truly hands-off content engine.</p><h2 id=how-the-gemini-powered-hugo-generator-works>How the Gemini-Powered Hugo Generator Works</h2><p>[cite_start]The core of this system is surprisingly straightforward, leveraging the power of a well-defined prompt and the advanced capabilities of Google&rsquo;s Gemini. [cite: 1, 2] The process doesn&rsquo;t require complex code (yet!), but rather a very specific set of instructions that I&rsquo;ve refined to produce consistent, high-quality output.</p><p>The magic lies in the prompt engineering. I&rsquo;ve instructed Gemini to act as an expert technical writer specializing in Hugo. The prompt contains strict rules for the output format, which must be a complete Markdown file.</p><p>Here’s a breakdown of the required structure:</p><ol><li>[cite_start]<strong>Hugo Front Matter:</strong> The response must start immediately with TOML front matter, enclosed in <code>+++</code>. [cite: 5] [cite_start]This metadata block includes a title, date, a list of relevant tags, and categories, which are essential for how Hugo organizes and builds the site. [cite: 4, 7]</li><li>[cite_start]<strong>Markdown Content:</strong> Following the front matter, the actual post content is generated in standard Markdown. [cite: 6] [cite_start]This includes a captivating introduction, a well-structured body with headings (<code>##</code>, <code>###</code>), and code blocks where necessary. [cite: 12, 13]</li></ol><p>By providing a simple topic—in this case, the very blog post you are reading—Gemini can construct the entire file.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Conceptual command to generate a post</span>
+</span></span><span style=display:flex><span>gemini --prompt <span style=color:#e6db74>&#34;Create a blog post about how I used Gemini to generate Hugo posts and what my next steps are for building a ghost writer.&#34;</span> &gt; new-post.md
+</span></span></code></pre></div><h2 id=next-steps-building-a-true-ghost-writer>Next Steps: Building a True &ldquo;Ghost Writer&rdquo;</h2><p>Setting up this generator is a fantastic proof-of-concept, but it&rsquo;s just the beginning. To realize the vision of an autonomous ghost writer, several key components need to be built and integrated. Here is my roadmap:</p><h3 id=1-full-pipeline-automation>1. Full Pipeline Automation</h3><p>The current process is manual; I provide a prompt and save the output. The next phase is to automate this entire workflow. This involves creating a script that can:</p><ul><li><strong>Generate an Idea:</strong> Programmatically select a topic from a predefined list or even use another AI call to brainstorm new topics based on my areas of interest (AI, Robotics, Project Management).</li><li><strong>Invoke the Gemini API:</strong> Send the chosen topic to the Gemini API with the specialized Hugo-generation prompt.</li><li><strong>Commit to GitHub:</strong> Take the returned Markdown file and automatically commit it to the <code>content/posts</code> directory of my Hugo website&rsquo;s GitHub repository. This will trigger my site&rsquo;s continuous deployment pipeline (e.g., via Netlify or Vercel) to build and publish the new post.</li></ul><h3 id=2-scheduled-content-creation>2. Scheduled Content Creation</h3><p>To ensure a regular flow of content, I plan to run this automation script on a schedule. A <strong>cron job</strong> running on a small server or a <strong>serverless function</strong> (like Google Cloud Functions or AWS Lambda) would be perfect for this. I could, for example, configure it to generate and publish a new blog post every Monday morning.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Conceptual serverless function
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>const</span> { <span style=color:#a6e22e>GeminiServiceClient</span> } <span style=color:#f92672>=</span> <span style=color:#a6e22e>require</span>(<span style=color:#e6db74>&#34;@google-ai/generativelanguage&#34;</span>);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> { <span style=color:#a6e22e>Octokit</span> } <span style=color:#f92672>=</span> <span style=color:#a6e22e>require</span>(<span style=color:#e6db74>&#34;@octokit/rest&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>exports</span>.<span style=color:#a6e22e>createBlogPost</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>async</span> (<span style=color:#a6e22e>req</span>, <span style=color:#a6e22e>res</span>) =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// 1. Get a new blog post topic
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>topic</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;A deep dive into ROS 2 for hobbyist robotics.&#34;</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// 2. Call Gemini API to generate the post content
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>geminiClient</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>GeminiServiceClient</span>();
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>hugoPostContent</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>geminiClient</span>.<span style=color:#a6e22e>generateText</span>(<span style=color:#75715e>/*...params*/</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// 3. Use Octokit to commit the file to GitHub
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>octokit</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Octokit</span>({ <span style=color:#a6e22e>auth</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>process</span>.<span style=color:#a6e22e>env</span>.<span style=color:#a6e22e>GITHUB_TOKEN</span> });
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>octokit</span>.<span style=color:#a6e22e>repos</span>.<span style=color:#a6e22e>createOrUpdateFileContents</span>({
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>owner</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#34;MyGitHubUsername&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>repo</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#34;my-hugo-blog&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>path</span><span style=color:#f92672>:</span> <span style=color:#e6db74>`content/posts/</span><span style=color:#e6db74>${</span><span style=color:#66d9ef>new</span> Date().<span style=color:#a6e22e>toISOString</span>().<span style=color:#a6e22e>split</span>(<span style=color:#e6db74>&#39;T&#39;</span>)[<span style=color:#ae81ff>0</span>]<span style=color:#e6db74>}</span><span style=color:#e6db74>-new-post.md`</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>message</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#34;Automated Blog Post: &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>topic</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>content</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>Buffer</span>.<span style=color:#a6e22e>from</span>(<span style=color:#a6e22e>hugoPostContent</span>).<span style=color:#a6e22e>toString</span>(<span style=color:#e6db74>&#39;base64&#39;</span>),
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>status</span>(<span style=color:#ae81ff>200</span>).<span style=color:#a6e22e>send</span>(<span style=color:#e6db74>&#34;New blog post created successfully!&#34;</span>);
+</span></span><span style=display:flex><span>};
+</span></span></code></pre></div><h3 id=3-personalization-and-style-fine-tuning>3. Personalization and Style Fine-Tuning</h3><p>While the current output is excellent, a future goal is to fine-tune a model on my existing writings. By providing a dataset of my previous blog posts, articles, and even technical documents, I could train the AI to more closely mimic my specific voice, tone, and stylistic nuances. This would move the system from a &ldquo;generic technical writer&rdquo; to a true digital extension of myself.</p><h2 id=conclusion>Conclusion</h2><p>This project represents a powerful first step towards leveraging AI for automating personal content creation. [cite_start]By combining the static site generation capabilities of Hugo with the advanced generative power of Gemini, I&rsquo;ve created a tool that significantly streamlines my blogging process. [cite: 1, 2] The path is now clear to evolve this into a fully autonomous &ldquo;ghost writer,&rdquo; a system that can ideate, write, and publish on my behalf, keeping my blog populated with fresh, relevant content. The future of personalized content creation is here, and I&rsquo;m excited to build it.</p><div class=footer><p>&copy; Gopi Palaniappan. Powered by
+<a href=https://gohugo.io/>Hugo</a>. <a href=credits/>Credits.</a><a href=/tags/>Tags.</a></p></div></div></body></html>

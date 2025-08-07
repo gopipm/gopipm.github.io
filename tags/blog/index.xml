@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/blog/</link>
-    <description>Recent content in Blog on Gopi Palaniappan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://gopipm.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog</title>
-      <link>https://gopipm.github.io/blog/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://gopipm.github.io/blog/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Gopi Palaniappan</title><link>https://gopipm.github.io/tags/blog/</link><description>Recent content in Blog on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog</title><link>https://gopipm.github.io/blog/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/blog/</guid><description/></item></channel></rss>

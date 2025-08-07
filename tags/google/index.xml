@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Google on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/google/</link>
-    <description>Recent content in Google on Gopi Palaniappan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://gopipm.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Effortless Setup: Get Started with the Gemini CLI in Minutes</title>
-      <link>https://gopipm.github.io/blog/geminicli/</link>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://gopipm.github.io/blog/geminicli/</guid>
-      <description>&lt;p&gt;Getting started with new command-line tools can sometimes feel like a chore, but I was pleasantly surprised by how simple it was to set up the Gemini CLI. As an AI-powered assistant that runs directly in your terminal, it&amp;rsquo;s a game-changer for developers, and the setup process is just as streamlined. This post will walk you through the quick installation and initial configuration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt; &lt;p&gt;Before you start, you&amp;rsquo;ll need to have &lt;strong&gt;Node.js&lt;/strong&gt; installed on your system. The Gemini CLI requires version 18 or higher. You can verify your version by running &lt;code&gt;node -v&lt;/code&gt; in your terminal.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google on Gopi Palaniappan</title><link>https://gopipm.github.io/tags/google/</link><description>Recent content in Google on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>Effortless Setup: Get Started with the Gemini CLI in Minutes</title><link>https://gopipm.github.io/blog/geminicli/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/blog/geminicli/</guid><description>&lt;p>Getting started with new command-line tools can sometimes feel like a chore, but I was pleasantly surprised by how simple it was to set up the Gemini CLI. As an AI-powered assistant that runs directly in your terminal, it&amp;rsquo;s a game-changer for developers, and the setup process is just as streamlined. This post will walk you through the quick installation and initial configuration.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2> &lt;p>Before you start, you&amp;rsquo;ll need to have &lt;strong>Node.js&lt;/strong> installed on your system. The Gemini CLI requires version 18 or higher. You can verify your version by running &lt;code>node -v&lt;/code> in your terminal.&lt;/p></description></item></channel></rss>

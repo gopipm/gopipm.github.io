@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Code-Generators on Gopi Palaniappan</title>
-    <link>https://gopipm.github.io/tags/code-generators/</link>
-    <description>Recent content in Code-Generators on Gopi Palaniappan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://gopipm.github.io/tags/code-generators/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Developer&#39;s Guide to the Exploding World of Gen AI Code Generators</title>
-      <link>https://gopipm.github.io/blog/a-developers-guide-to-gen-ai-code-generators/</link>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://gopipm.github.io/blog/a-developers-guide-to-gen-ai-code-generators/</guid>
-      <description>&lt;h2 id=&#34;navigating-the-ai-coding-revolution&#34;&gt;Navigating the AI Coding Revolution&lt;/h2&gt; &lt;p&gt;Every week, it seems a new AI-powered coding tool enters the scene, promising to revolutionize our development workflows. As a developer constantly looking to optimize my process, I&amp;rsquo;ve been diving headfirst into this rapidly evolving ecosystem. From IDE extensions to standalone CLIs, the options are vast and varied.&lt;/p&gt;&#xA;&lt;p&gt;This post is my attempt to catalog and compare the various tools I&amp;rsquo;ve experimented with recently. Many of these tools act as sophisticated frontends, connecting to powerful large language models (LLMs) like those from OpenAI, Google, or Anthropic, while others offer a more integrated, unique experience.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code-Generators on Gopi Palaniappan</title><link>https://gopipm.github.io/tags/code-generators/</link><description>Recent content in Code-Generators on Gopi Palaniappan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://gopipm.github.io/tags/code-generators/index.xml" rel="self" type="application/rss+xml"/><item><title>A Developer's Guide to the Exploding World of Gen AI Code Generators</title><link>https://gopipm.github.io/blog/a-developers-guide-to-gen-ai-code-generators/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate><guid>https://gopipm.github.io/blog/a-developers-guide-to-gen-ai-code-generators/</guid><description>&lt;h2 id="navigating-the-ai-coding-revolution">Navigating the AI Coding Revolution&lt;/h2> &lt;p>Every week, it seems a new AI-powered coding tool enters the scene, promising to revolutionize our development workflows. As a developer constantly looking to optimize my process, I&amp;rsquo;ve been diving headfirst into this rapidly evolving ecosystem. From IDE extensions to standalone CLIs, the options are vast and varied.&lt;/p>
+&lt;p>This post is my attempt to catalog and compare the various tools I&amp;rsquo;ve experimented with recently. Many of these tools act as sophisticated frontends, connecting to powerful large language models (LLMs) like those from OpenAI, Google, or Anthropic, while others offer a more integrated, unique experience.&lt;/p></description></item></channel></rss>
