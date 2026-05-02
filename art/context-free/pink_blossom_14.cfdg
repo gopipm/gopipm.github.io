@@ -1,0 +1,57 @@
+startshape START 
+background { hue 1 b 1 sat 0.08 }
+
+rule START {
+    BRANCH { }
+    BRANCH { flip 90 }
+}
+
+rule SHAPE { SQUARE { } }
+rule SHAPE 0.01 {
+    SQUARE { }
+    CIRCLE { s 3 10 }
+}
+
+rule BRANCH { 
+    SHAPE { hue 10 sat 0.5 b 0.5 }
+    BRANCH { y 1 s 0.995 r 0.5 }
+}
+
+rule BRANCH 0.08 {
+    BRANCH { flip 90 }
+}
+
+rule BRANCH 0.05 { 
+    BRANCH { s 0.85 r 15 }
+    BRANCH { s 0.8 r -15 }
+}
+
+rule BRANCH 0.02 {
+    START2 { r 45 x 1.5 alpha -0.2}
+    BRANCH { s 0.8 }
+}
+
+rule START2 {
+    START_ { sat 0.9 hue 15 b 0.8}
+    START_ { x -3.1 flip -90 hue 10 sat 0.8 b 0.8}
+
+    START2 { s 0.8 x -0.3 y 5 flip 180 }
+}
+
+rule START_ {
+    CIRCLE { s 3 10 alpha -0.5}
+
+    FLOWER { skew 0 70}
+    START_ { x 0.2 r 9 s 0.95 b 0.05 hue -1}
+}
+
+rule FLOWER {
+    PETAL { r -30 y -0.37 x 0.28  b 0.1}
+    PETAL { flip -90 x -1.08 b 0.1}
+    PETAL { flip 150 y -1.5 x -0.9 }
+}
+
+rule PETAL {
+    TRIANGLE { skew 5 25 }
+    TRIANGLE { s 0.8 b 1 skew 5 25 sat -1}
+}

@@ -1,0 +1,5 @@
+startshape START
+
+shape START {
+    CIRCLE []
+}
