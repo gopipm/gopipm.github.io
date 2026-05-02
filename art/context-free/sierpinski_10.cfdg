@@ -1,0 +1,8 @@
+startshape SIERPINSKI
+
+shape SIERPINSKI {
+    TRIANGLE []
+    SIERPINSKI [s 0.5 y 0.433]
+    SIERPINSKI [s 0.5 x -0.5 y -0.433]
+    SIERPINSKI [s 0.5 x 0.5 y -0.433]
+}

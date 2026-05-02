@@ -1,0 +1,10 @@
+startshape CILIA
+
+shape CILIA {
+  loop 10 [r 36] BLADE []
+}
+
+shape BLADE {
+  CIRCLE [ s 1 0.1 ]
+  BLADE [ y 0.1 r 2 s 0.99 ]
+}
